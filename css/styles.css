@@ -1,59 +1,82 @@
 body {
     background-color: #ffffff;
     font-family: 'Barlow', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 1.4;
     color: #303030;
 }
-
 h1 {
-    font-size: 2.6em;
+    font-size: 2.5em;
     font-weight: 700;
     line-height: 1.2
 }
-
 h2 {
-    font-size: 2.2em;
+    font-size: 2.1em;
     font-weight: 600;
     line-height: 1.1;
 }
-
 h3 {
     font-size: 1.75em;
     font-weight: 600;
     line-height: 1.1;
 }
-
 h4 {
     font-size: 1.1em;
     font-weight: 500;
     line-height: 1.2;
 }
+.tag-line {
+    font-weight: 400;
+    font-size: 28px;
+}
+.italic{
+    font-style: italic;
+}
+.regular {
+    font-weight: 400;
+}
+.bold {
+    font-weight: 600;
+}
+.rust {
+    color: #C26F5A;
+}
+.semibold {
+    font-weight: 400;
+}
 
-img {
+nav { /* NAVIGATION */
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+img { /* IMAGES */
     width: 100%;
 }
 
-a {
-    color: #b96350;
+a {     /* LINKS */
+    color: #C26F5A;
     text-decoration: none;
-    /* underlining */
 }
 a:visited {
-    color: #b96350;
+    color: #C26F5A;
 }
 a:hover {
-    color: #b96350;
+    color: #C26F5A;
     text-decoration: underline;
 }
 a:active {
-    /* selected link */
     color: #5D91CE;
 }
 a:focus {
-    color: #b96350;
+    color: #C26F5A;
     text-decoration: underline;
+}
+
+.text-link {
+    font-weight: 500;
+    font-size: 1.03em; 
 }
 
 .discreet-link {
@@ -72,29 +95,34 @@ a:focus {
 .discreet-link:focus {
     color: #303030;
 }
-.button {
+.button { /* BUTTONS */
     display: inline-block;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+    text-transform: lowercase;
     background-color: #ffffff;
-    color: #b96350;
-    /* needed to override the default link color */
-    font-weight: 600;
-    padding: 9px;
-    border-radius: 13px;
-    border: 3px solid #b96350;
+    color: #C26F5A;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px 3px;
+    border: 3px solid #C26F5A;
     transition: 0.2s opacity;
 }
 .button:visited {
     background-color: #ffffff;
-    color: #b96350;
+    color: #C26F5A;
     text-decoration: none;
 }
 .button:hover {
-    background-color: #b96350;
+    background-color: #C26F5A;
     color: #ffffff;
     text-decoration: none;
 }
 .button:active {
-    background-color: #b96350;
+    background-color: #C26F5A;
     color: #ffffff;
     text-decoration: none;
 }
@@ -104,10 +132,9 @@ a:focus {
     color: #5D91CE;
     text-decoration: none;
 }
-
-/* buttons in Connect footer */
+/* buttons in CONNECT footer */
 .button.contact {
-    background-color: #b96350;
+    background-color: #C26F5A;
     color: #ffffff;
 }
 .button.contact:hover {
