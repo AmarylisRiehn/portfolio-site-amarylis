@@ -1,1 +1,105 @@
-body{background-color: lightgrey;}
+body {
+    background-color: #ffffff;
+    font-family: 'Barlow', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #303030;
+}
+
+h1 {
+    font-size: 2.6em;
+    font-weight: 700;
+    line-height: 1.2
+}
+
+h2 {
+    font-size: 2.2em;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+h3 {
+    font-size: 1.75em;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+h4 {
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: #b96350;
+    text-decoration: none;
+    /* underlining */
+}
+a:visited {
+    color: #b96350;
+}
+
+a:hover {
+    color: #b96350;
+    text-decoration: underline;
+}
+a:active {
+    /* selected link */
+    color: #5D91CE;
+}
+a:focus {
+    color: #5D91CE;
+    text-decoration: underline;
+}
+
+.discreetlink {
+    /* for hidden convenience links like a headline */
+    color: #303030;
+}
+.discreetlink:visited {
+    color: #303030;
+}
+.discreetlink:hover {
+    color: #303030;
+}
+.discreetlink:active {
+    color: #303030;
+}
+.button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #b96350;
+    /* needed to override the default link color */
+    font-weight: 600;
+    padding: 9px;
+    border-radius: 13px;
+    border: 3px solid #b96350;
+    transition: 0.2s opacity;
+}
+.button:visited {
+    background-color: #ffffff;
+    color: #b96350;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #b96350;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background-color: #F0BEA9;
+    border: solid #F0BEA9;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:focus {
+    background-color: #ffffff;
+    border: solid #5D91CE;
+    color: #5D91CE;
+    text-decoration: none;
+}
