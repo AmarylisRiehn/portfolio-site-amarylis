@@ -43,7 +43,6 @@ a {
 a:visited {
     color: #b96350;
 }
-
 a:hover {
     color: #b96350;
     text-decoration: underline;
@@ -53,21 +52,24 @@ a:active {
     color: #5D91CE;
 }
 a:focus {
-    color: #5D91CE;
+    color: #b96350;
     text-decoration: underline;
 }
 
-.discreetlink {
+.discreet-link {
     /* for hidden convenience links like a headline */
     color: #303030;
 }
-.discreetlink:visited {
+.discreet-link:visited {
     color: #303030;
 }
-.discreetlink:hover {
+.discreet-link:hover {
     color: #303030;
 }
-.discreetlink:active {
+.discreet-link:active {
+    color: #303030;
+}
+.discreet-link:focus {
     color: #303030;
 }
 .button {
@@ -92,8 +94,7 @@ a:focus {
     text-decoration: none;
 }
 .button:active {
-    background-color: #F0BEA9;
-    border: solid #F0BEA9;
+    background-color: #b96350;
     color: #ffffff;
     text-decoration: none;
 }
@@ -103,3 +104,14 @@ a:focus {
     color: #5D91CE;
     text-decoration: none;
 }
+
+/* buttons in Connect footer */
+.button.contact {
+    background-color: #b96350;
+    color: #ffffff;
+}
+.button.contact:hover {
+    opacity: 0.8;
+}
+.button.contact:active {
+    opacity: 0.8;}
