@@ -157,7 +157,9 @@ a:focus {
 }
 .centered {
     text-align: center;
-} 
+}
+
+/*HEADER NAV*/
 header {
     background-color: #ffe4c4;
     text-align: center;
@@ -166,7 +168,6 @@ header {
     position: fixed;
     width: 100%;}
 .shadow {
-        /*start ------------*/
         width: [object Object]px; 
         height: [object Object]px; 
         background: #F8F8F8; 
@@ -178,7 +179,7 @@ header {
 .logo {
     max-width: 250px;
 }
-nav { /* NAVIGATION */
+nav {
     display: inline-block;
 }
 nav > ul {
@@ -196,20 +197,24 @@ nav > ul > li > a {
 }
 /*nav > ul > li > a:visited*/
 
+/*MAIN*/
 main {
-    padding-top: 133px;
+    padding-top: 137px;
     width: 100%;
 }
 
+/*HERO*/
 #hero {
     background-color: #F8F3E7;
-    padding: 25px 0;
+    padding: 40px 0;
     display: inline-block;
     width: 100%;
 }
 #hero h1 {
     text-align: center;
 }
+
+/*MY WORK*/
 #mywork h4 {
     margin: 20px 0px
 }
@@ -221,6 +226,32 @@ main {
     border-bottom: 1px solid #4a4a4a; 
 }
 
+/*TOOLS*/
+#tools {
+    display: inline-block;
+}
+#tools > ul {
+    max-width: 60px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+#tools > ul > li {
+    display: inline-block;
+}
+
+/*REFERENCES*/
+#references {
+    background-color: #F0BEA9;
+    text-align: center;
+    padding: 62px 15px 62px 15px;
+    margin: 0px auto;
+    width: 100%;}
+
+.profile {
+    max-width: 90px;
+    display: inline-block;
+}
+/*FOOTER*/
 footer {
     background-color: #F8F3E7;
     padding: 25px 0;
@@ -228,7 +259,10 @@ footer {
     display: inline-block;
 }
 .button.contact.resume {
-margin: 10px 15px 
+margin: 10px 15px;
+} 
+.button.resume {
+    margin: 10px 15px 
 }
 /*Icon Links*/
 .icon-link {
@@ -246,3 +280,4 @@ footer > ul {
 footer > div > div > ul > li {
     display: inline-block;
 }
+
