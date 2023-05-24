@@ -109,7 +109,7 @@ a:focus {
     color: #C26F5A;
     font-weight: 500;
     padding: 5px 10px 6px 10px;
-    margin: 10px 0;
+    margin: 15px 0;
     border-radius: 15px 3px;
     border: 3px solid #C26F5A;
     transition: 0.2s opacity;
@@ -146,6 +146,14 @@ a:focus {
 .button.contact:active {
     opacity: 0.8;}
 
+.butt-shadow {
+    width: [object Object]px; 
+	height: [object Object]px; 
+	background: #F8F8F8; 
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1)  ; 
+	-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1)  ; 
+	-moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1)  ; 
+}
 
 /* LAYOUT styling */
 
@@ -168,13 +176,13 @@ header {
     position: fixed;
     width: 100%;}
 .shadow {
-        width: [object Object]px; 
-        height: [object Object]px; 
-        background: #F8F8F8; 
-        border: solid #BDBDBD 0; 
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2)  ; 
-        -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2)  ; 
-        -moz-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2)  ; 
+    width: [object Object]px; 
+	height: [object Object]px; 
+	background: #F8F8F8; 
+	border: solid #BDBDBD 1px; 
+	box-shadow: 9px 9px 15px rgba(0, 0, 0, 0.1)  ; 
+	-webkit-box-shadow: 9px 9px 15px rgba(0, 0, 0, 0.1)  ; 
+	-moz-box-shadow: 9px 9px 15px rgba(0, 0, 0, 0.1)  ; 
     }
 .logo {
     max-width: 250px;
@@ -222,28 +230,16 @@ main {
     margin: 19px 0px
 }
 #mywork .row { 
-    padding-bottom: 25px; 
+    padding-bottom: 40px; 
+    padding-top: 10px;
     border-bottom: 1px solid #4a4a4a; 
+    margin-bottom: 50px
 }
-
-/*TOOLS*/
-#tools {
-    display: inline-block;
-}
-#tools > ul {
-    max-width: 60px;
-    list-style-type: none;
-    padding-left: 0px;
-}
-#tools > ul > li {
-    display: inline-block;
-}
-
 /*REFERENCES*/
 #references {
     background-color: #F0BEA9;
     text-align: center;
-    padding: 62px 15px 62px 15px;
+    padding: 65px 15px 62px 15px;
     margin: 0px auto;
     width: 100%;}
 
@@ -251,10 +247,55 @@ main {
     max-width: 90px;
     display: inline-block;
 }
+
+/*ABOUT*/
+#about {
+    display: inline-block;
+    padding-bottom: 55px;
+    margin: 0px auto;
+    width: 100%;
+}
+/*SKILLS*/
+#skills {
+    background-color: #F0BEA9;
+    display: inline-block;
+    padding: 50px 0px;
+    margin: 0px auto;
+    width: 100%;
+
+}
+#skills h4{
+    margin: 10px 0px 0px 0px
+}
+#skills .container .row {
+    background-color: #ffffff;
+    border-radius: 30px 5px;
+    border: 3px solid #ffffff;
+    padding: 15px 15px 15px 30px;
+    width: 290px;
+    height: 300px;
+    margin: 20 auto;
+}
+/*TOOLS*/
+#tools > ul {
+    max-width: 80px;
+    list-style-type: none;
+    padding-left: 0px;
+
+}
+#tools > ul > li {
+    display: inline-block;
+    margin: 5px;
+}
+/*SPARE TIME*/
+#spare-time {
+    padding: 50px 0px;
+}
+
 /*FOOTER*/
 footer {
     background-color: #F8F3E7;
-    padding: 25px 0;
+    padding: 55px 0px 10px 0px;
     width: 100%;
     display: inline-block;
 }
@@ -279,5 +320,8 @@ footer > ul {
     }
 footer > div > div > ul > li {
     display: inline-block;
+}
+.copyright {
+    font-size: 15px;
 }
 
