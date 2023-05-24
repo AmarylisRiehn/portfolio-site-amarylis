@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 body {
     background-color: #ffffff;
     font-family: 'Barlow', sans-serif;
@@ -49,6 +52,8 @@ h4 {
 nav { /* NAVIGATION */
     font-size: 1.2em;
     font-weight: 500;
+    display: inline-block;
+    width: 100%;
 }
 
 img { /* IMAGES */
@@ -103,10 +108,8 @@ a:focus {
     background-color: #ffffff;
     color: #C26F5A;
     font-weight: 500;
-    padding-top: 5px;
-    padding-bottom: 6px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 5px 10px 6px 10px;
+    margin: 10px 0;
     border-radius: 15px 3px;
     border: 3px solid #C26F5A;
     transition: 0.2s opacity;
@@ -142,3 +145,104 @@ a:focus {
 }
 .button.contact:active {
     opacity: 0.8;}
+
+
+/* LAYOUT styling */
+
+.container {
+    padding: 0 15px;
+}
+.row {
+    margin: 25px 0;
+}
+.centered {
+    text-align: center;
+} 
+header {
+    background-color: #ffe4c4;
+    text-align: center;
+    padding: 25px 0 5px 0px;
+    margin: 0px auto;
+    position: fixed;
+    width: 100%;}
+.shadow {
+        /*start ------------*/
+        width: [object Object]px; 
+        height: [object Object]px; 
+        background: #F8F8F8; 
+        border: solid #BDBDBD 0; 
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2)  ; 
+        -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2)  ; 
+        -moz-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2)  ; 
+    }
+.logo {
+    max-width: 250px;
+}
+nav { /* NAVIGATION */
+    display: inline-block;
+}
+nav > ul {
+    list-style-type: none;
+    padding: 0px 0;
+}
+nav > ul > li {
+    display: inline-block;
+}
+nav > ul > li > a {
+    padding: 0px 15px;
+    /*text-transform: uppercase;
+    font-weight: 700;
+    color: #4a4a4a;*/
+}
+/*nav > ul > li > a:visited*/
+
+main {
+    padding-top: 133px;
+    width: 100%;
+}
+
+#hero {
+    background-color: #F8F3E7;
+    padding: 25px 0;
+    display: inline-block;
+    width: 100%;
+}
+#hero h1 {
+    text-align: center;
+}
+#mywork h4 {
+    margin: 20px 0px
+}
+#mywork h3 {
+    margin: 19px 0px
+}
+#mywork .row { 
+    padding-bottom: 25px; 
+    border-bottom: 1px solid #4a4a4a; 
+}
+
+footer {
+    background-color: #F8F3E7;
+    padding: 25px 0;
+    width: 100%;
+    display: inline-block;
+}
+.button.contact.resume {
+margin: 10px 15px 
+}
+/*Icon Links*/
+.icon-link {
+    max-width: 50px;
+    margin: 5px 10px 16px 0px;
+}
+.icon-link2 {
+        max-width: 50px;
+        margin: 8px 10px 13px 10px
+    }
+footer > ul {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+footer > div > div > ul > li {
+    display: inline-block;
+}
