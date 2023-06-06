@@ -432,7 +432,7 @@ margin: 20px;
 }
 #bottom-nav > div > div > a {
     padding: 0px 22px;
-    margin: 0px auto;
+    /* margin: 0px auto; */
 }
 .bottom {
     padding: 23px 0px;
