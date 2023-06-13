@@ -29,16 +29,12 @@ h4 {
     font-weight: 500;
     line-height: 1.2;
 }
-.tag-line {
-    font-weight: 400;
-    font-size: 28px;
-}
 .alan {
     font-size: .7em;
     font-weight: 400;
     line-height: 1.1;
 }
-.italic{
+.italic {
     font-style: italic;
 }
 .regular {
@@ -54,18 +50,18 @@ h4 {
     font-weight: 400;
     display: block;
 }
-
 nav { /* NAVIGATION */
-    font-size: 1.2em;
     font-weight: 500;
     display: inline-block;
     width: 100%;
 }
-
 img { /* IMAGES */
     width: 100%;
 }
 
+/* ===========================
+     LINKS - BUTTONS 
+=============================*/
 a {     /* LINKS */
     color: #C26F5A;
     text-decoration: none;
@@ -119,7 +115,8 @@ a:focus {
     margin: 15px 0;
     border-radius: 15px 3px;
     border: 3px solid #C26F5A;
-    transition: 0.2s opacity;
+    transition-duration: 0.2s;
+    transition-property: opacity;
 }
 .button:visited {
     background-color: #ffffff;
@@ -130,6 +127,7 @@ a:focus {
     background-color: #C26F5A;
     color: #ffffff;
     text-decoration: none;
+    opacity: 0.8;
 }
 .button:active {
     background-color: #C26F5A;
@@ -168,7 +166,9 @@ a:focus {
     opacity: 0.7;
 }
 
-/* LAYOUT styling */
+/* ===========================
+     LAYOUT STYLING 
+=============================*/
 
 .container {
     padding: 0 15px;
@@ -205,7 +205,7 @@ header {
 	-moz-box-shadow: 9px 9px 15px rgba(0, 0, 0, 0.1)  ; 
     }
 .logo {
-    max-width: 220px;
+    max-width: 180px;
 }
 nav {
     display: inline-block;
@@ -213,36 +213,95 @@ nav {
 nav > ul {
     list-style-type: none;
     padding: 0px 0px;
-    
 }
 nav > ul > li {
     display: inline-block;
 }
 nav > ul > li > a {
-    padding: 0px 15px;
+    padding: 0px 20px;
     /*text-transform: uppercase;
     font-weight: 700;
     color: #4a4a4a;*/
 }
 /*nav > ul > li > a:visited*/
 
-/*MAIN*/
 main {
-    padding-top: 137px;
+    padding-top: 118px;
     width: 100%;
 }
 
+/* ===========================
+     WORK / HOME 
+=============================*/
 /*HERO*/
 #hero {
-    background-color: #F8F3E7;
-    padding: 40px 0;
+    padding: 70px 0;
     display: inline-block;
     width: 100%;
+    background-color: #dbbab2;
 }
+/* .big-img {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('img/main/img-hero.png');
+}
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left:0;
+    background:rgba(0, 0, 0, 0.1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+/* .hero-img {
+    position: absolute;
+    top: 118px;
+    z-index:-1;
+} */
 #hero h1 {
-    text-align: center;
+    padding-top: 70px;
+    text-align: left;
+    /* max-width: 290px; */
+    /* color: #ffffff; */
+    font-size: 2em;
 }
-
+#hero h4 {
+    text-align: left;
+    padding: 20px 0;
+    /* color: #ffffff; */
+    font-size: 18px;
+}
+.down-arrow {
+    max-width: 25px;
+    margin: 50px auto 0px auto;
+    display: block;
+    position: absolute;
+    animation: jumpInfinite 2s infinite;
+}
+.down-arrow:after {
+    content: " ";
+    position: absolute;
+    transform: rotateZ(45deg);
+}
+@keyframes jumpInfinite {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 20px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
 /*MY WORK*/
 #mywork h4 {
     margin: 20px 0px
@@ -250,26 +309,110 @@ main {
 #mywork h3 {
     margin: 19px 0px
 }
+#mywork h2 {
+    padding: 25px 0px;
+}
+#mywork p {
+    font-size: 16px;
+}
+.tag-line {
+    font-weight: 400;
+    font-size: 28px;
+}
 #mywork .row { 
     padding-bottom: 40px; 
     padding-top: 10px;
     border-bottom: 1px solid #4a4a4a; 
     margin-bottom: 50px
 }
+.testimg {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.fade-in-image { animation: fadeIn 4s; }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    60% { opacity: 1; }
+  }
+@keyframes screen-move {
+    from {transform: translate(0px,-70px);}
+    to {transform: translate(0px,0px);}
+  } 
+.move-in {
+    animation-duration: 1s;
+    animation-name: screen-move;
+    animation-iteration-count: 1;
+    animation-direction: end;
+    animation-timing-function: linear;
+}
+@keyframes color-change {
+    0% {fill: #edc655;}
+    50% {fill: #fcffad;}
+    100% {fill: #f76414;}
+}
+
+/*ANIMATION EXAMPLE*/
+.sun {
+    animation-duration: 4s;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+@keyframes cloud-move {
+    from {transform: translate(0,50px);}
+    to {transform: translate(200px,50px);}
+  }
+.cloud-front {
+    animation-duration: 30s;
+    animation-name: cloud-move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes cloud-move-reverse {
+    from {transform: translate(446px,48px);}
+    to {transform: translate(100px, 48px);}
+  }
+  .cloud-back {
+    animation: 34s cloud-move-reverse infinite alternate linear;
+  }
+
 /*REFERENCES*/
 #references {
     background-color: #F0BEA9;
     text-align: center;
-    padding: 65px 15px 62px 15px;
-    margin: 0px auto;
+    padding: 65px 0 62px 0;
     width: 100%;}
 
+#references span {
+    display: block;
+}
+#references h4 {
+margin: 15px 0;
+}
+#references p {
+    font-size: 16px;
+}
+.quote {
+    background-color: #f1c6b4;
+    margin: 20px auto;
+    padding: 30px 25px;
+    max-width: 280px;
+    height: 500px;
+    border-radius: 30px 5px;
+    display: inline-block;
+}
 .profile {
     max-width: 90px;
     display: inline-block;
 }
 
-/*ABOUT*/
+/* ===========================
+     ABOUT 
+=============================*/
 #about {
     display: inline-block;
     padding-bottom: 55px;
@@ -280,22 +423,27 @@ main {
 #skills {
     background-color: #F0BEA9;
     display: inline-block;
-    padding: 50px 0px;
+    text-align: center;
+    padding: 60px 0px;
     margin: 0px auto;
     width: 100%;
-
 }
 #skills h4{
     margin: 10px 0px 0px 0px
 }
-#skills .container .row {
+.bullets {
+    font-size: 16px;
+}
+.skill-box {
     background-color: #ffffff;
     border-radius: 30px 5px;
     border: 3px solid #ffffff;
-    padding: 15px 15px 15px 30px;
-    width: 290px;
+    text-align: left;
+    padding: 20px;
+    margin: 20px auto;
+    width: 260px;
     height: 300px;
-    margin: 20 auto;
+    display: inline-block;
 }
 /*TOOLS*/
 .tool > ul {
@@ -304,7 +452,7 @@ main {
     padding-left: 0px;
 }
 .tool > ul > li {
-    width: 80px;
+    width: 75px;
     margin: 10px 15px;
     display: inline-block;
 }
@@ -313,7 +461,9 @@ main {
     padding: 50px 0px;
 }
 
-/* ALLWELL LAYOUT */
+/* ===========================
+     ALLWELL LAYOUT 
+=============================*/
 #allwell h4 {
     margin: 15px 0px;
     font-weight: 400;
@@ -416,9 +566,9 @@ main {
     margin: 0px 0px;
 }
 .sample {
-display: inline-block;
-max-width: 240px;
-margin: 20px;
+    display: inline-block;
+    max-width: 240px;
+    margin: 20px;
 }
 .type {
     display: inline-block;
@@ -445,9 +595,11 @@ margin: 20px;
     padding: 23px 0px;
 }
 
-/*FOOTER*/
+/* ===========================
+     FOOTER 
+=============================*/
 footer {
-    background-color: #F8F3E7;
+    background-color: #ffffff;
     padding: 55px 0px 10px 0px;
     width: 100%;
     display: inline-block;
@@ -457,6 +609,9 @@ margin: 10px 15px;
 } 
 .button.resume {
     margin: 10px 15px 
+}
+#connect h2 {
+    padding-left: 10px;
 }
 /*Icon Links*/
 .socials {
@@ -476,11 +631,14 @@ footer > ul {
         list-style-type: none;
         padding-left: 0px;
     }
-footer > div > div > ul > li {
+.socials > ul > li {
     display: inline-block;
 }
 .copyright {
     font-size: 15px;
+}
+.cright {
+padding: 0px 20px;
 }
 
 /* ==============================
@@ -497,7 +655,7 @@ nav {
         margin-top: 4px;
     }
 main {
-        padding-top: 99px;
+    padding-top: 99px;
     }
   .col-md-6 {
     width: 50%;
@@ -506,27 +664,82 @@ main {
     float: left;
     padding: 10px;
   }
+#hero {
+    padding: 40px 30px;
+}  
+#hero h1 {
+    text-align: center;
+    max-width: 2000px;
+    font-size: 2.5em;
+}
+#hero h4 {
+    text-align: center;
+    font-size: 1.2em;
+}
+#mywork h2 {
+    text-align: center;
+}
+.quote {
+    padding: 30px 25px;
+    margin: 20px 10px;
+}
+#about p {
+max-width: 670px;
+}
+.skill-box {
+    padding: 20px;
+    width: 285px;
+    height: 300px;
+    margin: 15px;
+    display: inline-block;
+}
+#connect p {
+    max-width: 380px;
+    }
 }
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-}
-.col-md-5 {
+ .col-lg-4 {
+        width: 42%;
+      }    
+.col-lg-5 {
     width: 42%;
   }
-  .col-md-7 {
+  .col-lg-7 {
     width: 58%;
   }
   [class*="col-"] {
     float: left;
     padding: 10px;
   }
+h2 {
+    font-size: 2.5em;
+}
+#skills h3 {
+    font-size: 2em;
+}
   .container {
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
   }
+  .quote {
+    padding: 30px 25px;
+    margin: 20px;
+}
+.skill-box {
+    padding: 20px;
+    width: 285px;
+    height: 300px;
+    margin: 15px;
+    display: inline-block;
+}
+  #connect p {
+    max-width: 380px;
+    }
+}
 
 /* ==============================
 X-large devices (1440px or larger)
