@@ -303,6 +303,22 @@ main {
       margin-top: 0;
     }
   }
+#scratch {
+text-align: center;
+padding-top: 20px;
+}
+#scratch p {
+    display: inline-block;
+    font-size: 15px;
+    /* margin: 0 10px; */
+    position: relative;
+    bottom: 10px;
+}
+.ic-scratch {
+    max-width: 40px;
+margin: 0 5px 0 0;
+    display: inline-block;
+}
 /*MY WORK*/
 #mywork h4 {
     margin: 20px 0px
@@ -663,6 +679,7 @@ margin: 0 auto;
     margin: 50px 0;
 }
 
+
 /*BOTTOM NAV*/
 #bottom-nav {
     background-color: #C26F5A;
@@ -674,8 +691,16 @@ margin: 0 auto;
     text-align: center;
     display: inline-block;
 }
+.prev {
+    float: left;
+    padding-left: 15px;
+
+}
+.next {
+    float: right;
+    padding-right: 15px;
+}
 #bottom-nav > div > div > a {
-    padding: 0px 22px;
     color: #ffffff;
     /* margin: 0px auto; */
 }
@@ -698,9 +723,7 @@ margin: 10px 15px;
 .button.resume {
     margin: 10px 15px 
 }
-#connect h2 {
-    padding-left: 10px;
-}
+
 /*Icon Links*/
 .socials {
     display: inline-block;
@@ -862,6 +885,10 @@ margin: 0 auto;
 }
 .intro-scr {
     max-width: 700px;
+}
+#connect h2 {
+    padding-left: 10px;
+    margin: 20px 0 0 0;
 }
 #connect p {
     max-width: 380px;
