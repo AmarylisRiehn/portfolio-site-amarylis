@@ -279,9 +279,10 @@ main {
     /* color: #ffffff; */
     font-size: 18px;
 }
+
 .down-arrow {
-    max-width: 25px;
-    margin: 50px auto 0px auto;
+    max-width: 35px;
+    margin: 50px auto;
     display: block;
     position: absolute;
     animation: jumpInfinite 2s infinite;
@@ -385,7 +386,8 @@ main {
     background-color: #F0BEA9;
     text-align: center;
     padding: 65px 0 62px 0;
-    width: 100%;}
+    width: 100%;
+}
 
 #references span {
     display: block;
@@ -418,6 +420,18 @@ margin: 15px 0;
     padding-bottom: 55px;
     margin: 0px auto;
     width: 100%;
+}
+#about main {
+    padding-top: 93px;
+}
+.about-hero{
+    margin-bottom: 60px;
+}
+.about-hero-img {
+    max-width: 575px;
+}
+#about h2 {
+    margin: 55px 0 20px 0;
 }
 /*SKILLS*/
 #skills {
@@ -465,20 +479,52 @@ margin: 15px 0;
      ALLWELL LAYOUT 
 =============================*/
 #allwell h4 {
-    margin: 15px 0px;
+    margin: 15px 0 0 0;
     font-weight: 400;
     letter-spacing: 0.5px;
+    color: #004A78;
+}
+#allwell #intro h3 {
+    color: #303030;
+    max-width: 350px;
 }
 #allwell h3 {
-    margin: 20px 0px 25px 0px;
+    margin: 10px 0px 15px 0px;
+    max-width: 800px;
+    color: #004A78;
+}
+#allwell p {
+    max-width: 700px;
+}
+.top-line {
+    border-top: 1px solid #4a4a4a;
 }
 .title {
-    max-width: 350px;
-    margin: 20px 0px 40px 0px;
+    max-height: 40px;
+    width: auto;
+    margin: 20px 0px 60px 0px;
     display: inline-block;
+}
+.discover {
+    margin-top: 60px;
+}
+.define {
+    margin-top: 60px;
+}
+.develop {
+    margin-top: 20px;
+}
+.deliver {
+    margin-top: 60px;
 }
 .header-icon {
     max-width: 55px;
+}
+.up-icon {
+    max-width: 60px;
+}
+.mustache {
+    max-width: 48px;
 }
 .caution {
     position: relative;
@@ -493,21 +539,21 @@ margin: 15px 0;
 }
 .section {
     margin: 0px 0px 100px 0px;
-    /* border-bottom: 1px solid #4a4a4a;  */
+}
+.section-2 {
+    margin: 0px 0px 50px 0px;
 }
 .sub-section {
     margin: 20px 0px;
 }
 .stats {
     margin: 35px auto 0px auto;
-
 }
 .competitor {
     max-width: 290px;
     margin: 40px 0px 0px 0px;
 }
-
-#discover > div > div > div > div > ul {
+#discover > div > div > div > ul {
     max-width: 300px;
     list-style-type: none;
     padding-left: 0px;
@@ -515,49 +561,80 @@ margin: 15px 0;
     display: inline-block;
 }
 .monkey {
-    max-width: 320px;
+    max-width: 140px;
     margin: 80px auto 10px auto;
 }
 .filter {
-    max-width: 650px;
-    margin: 50px auto 40px auto;
+    /* max-width: 650px; */
+    margin: 60px auto 10px auto;
+}
+.wireframe {
+    margin: 60px 0 0px 0;
+}
+.map-results {
+    max-width: 260px;
+margin: 0 auto;
+}
+.site {
+    display: inline-block;
+    margin: 20px 20px 0 0;
+    position: relative;
+    top: 6px;
+}
+.sitemap {
+    display: inline-block;
+    margin: 0px 20px 10 0;
+}
+.interview {
+    /* max-width: 410px; */
+    border: .5px solid #c9c8c8;
+    position: relative;
+    top: 15px;
 }
 .persona {
     margin: 30px 0px;
 
 }
 .journey {
-    max-width: 270px;
-    margin: 10px 0px 40px 0px;
+    max-width: 320px;
+    margin: 20px 0px;
     display: inline-block;
 }
 .flow {
-    max-width: 290px;
-    margin: 40px 0px;
+    max-width: 350px;
+    margin: 20px 0px;
     display: inline-block;
+}
+.new-box {
+    height: 500px;
+    width: 290px;
+    margin: 0px auto;
+    display: inline-block
 }
 .improve {
     max-width: 550px;
     margin: 70px auto 30px auto;
+    display: inline-block;
 }
 .driver {
-    max-width: 290px;
-    margin: 0px 0px 60px 0px;
+    max-width: 260px;
+    margin: 0px 0px 40px 40px;
     display: inline-block;
-
 }
 .box {
     background-color: #ffffff;
     border-radius: 30px 5px;
     border: 3px solid #ffffff;
     padding: 15px;
-    width: 290px;
-    /* height: 300px; */
-    margin: 20px 0px;
+    width: 100%;
+    margin: 20px auto;
     display: inline-block
 }
 .box h3 {
     font-size: 1.2em;
+}
+.box p {
+    font-size: 16px;
 }
 .refine-ic {
     width: 160px;
@@ -575,24 +652,35 @@ margin: 15px 0;
     max-width: 185px;
     margin: 20px;
     }
+.move-up {
+    position: relative;
+    bottom: 25px;
+}
+#develop ol {
+    font-size: 16px;
+}
+.final {
+    margin: 50px 0;
+}
 
 /*BOTTOM NAV*/
 #bottom-nav {
-    background-color: #F0BEA9;
+    background-color: #C26F5A;
     margin-top: 80px;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 500;
-    height: 80px;
+    height: 60px;
     width: 100%;
     text-align: center;
     display: inline-block;
 }
 #bottom-nav > div > div > a {
     padding: 0px 22px;
+    color: #ffffff;
     /* margin: 0px auto; */
 }
 .bottom {
-    padding: 23px 0px;
+    padding: 14px 0px;
 }
 
 /* ===========================
@@ -639,6 +727,8 @@ footer > ul {
 }
 .cright {
 padding: 0px 20px;
+display: block;
+
 }
 
 /* ==============================
@@ -657,15 +747,34 @@ nav {
 main {
     padding-top: 99px;
     }
-  .col-md-6 {
+.col-md-6 {
     width: 50%;
-  }
-  [class*="col-"] {
+}
+.col-lg-4 {
+    width: 33%;
+} 
+.col-md-5 {
+    width: 42%; 
+}  
+.col-md-7 {
+    width: 58%; 
+}  
+.col-md-8 {
+    width: 67%;
+}
+[class*="col-"] {
     float: left;
     padding: 10px;
-  }
+}
+#allwell-top .col-md-6 p {
+    padding: 0px 30px 0px 0px;
+}
+.col-md-6 h3 {
+    padding: 0px 20px 0px 0px;
+}
 #hero {
     padding: 40px 30px;
+    height: 600px;
 }  
 #hero h1 {
     text-align: center;
@@ -683,63 +792,214 @@ main {
     padding: 30px 25px;
     margin: 20px 10px;
 }
+#about main {
+    padding-top: 0px;
+}
+.about-hero .row {
+    margin-top: 0;
+}
 #about p {
-max-width: 670px;
+max-width: 580px;
 }
 .skill-box {
     padding: 20px;
     width: 285px;
     height: 300px;
-    margin: 15px;
+    margin: 10px;
     display: inline-block;
+}
+.title {
+    max-height: 50px;
+}
+.monkey {
+    max-width: 200px;
+    margin: 10px 35px 10px auto;
+}
+.map-results {
+    max-width: 800px;
+margin: 0 auto;
+}
+.journey {
+    max-width: 300px;
+    margin: 20px 0px;
+}
+.flow {
+    max-width: 325px;
+    margin: 20px 0px;
+}
+.improve {
+    max-width: 550px;
+    margin: 15px auto 30px auto;
+    display: inline-block;
+}
+.box {
+    padding: 15px;
+    max-width: 285px;
+    height: 340px;
+    margin: 10px;
+    display: inline-block;
+}
+.driver {
+    max-width: 290px;
+    margin-left: 0;
+}
+.develop {
+    margin-bottom: 110px;
+}
+.sample {
+    max-width: 240px;
+    margin: 20px;
+}
+.type {
+    max-width: 185px;
+    margin: 20px;
+    }
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.intro-scr {
+    max-width: 700px;
 }
 #connect p {
     max-width: 380px;
     }
 }
 /* ==============================
-Large devices (1024px or larger)
+Large devices (1000px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {
- .col-lg-4 {
-        width: 42%;
-      }    
+@media only screen and (min-width: 1000px) {
+.col-icon {
+    width: 10%;
+    display: inline-block;
+}   
+.col-icon-copy {
+    width: 90%;
+    display: inline-block;
+}   
+.col-lg-4 {
+    width: 33%;
+}    
 .col-lg-5 {
     width: 42%;
-  }
-  .col-lg-7 {
+}
+.col-lg-6 {
+    width: 50%;
+}
+.col-lg-7 {
     width: 58%;
-  }
-  [class*="col-"] {
+}
+.col-lg-8 {
+    width: 67%;
+}
+[class*="col-"] {
     float: left;
     padding: 10px;
-  }
+}
+#about main {
+    padding-top: 65px;
+}
+.co-icon {
+    width: 7%;
+    float: left;
+}   
+.co-icon-copy {
+    width: 93%;
+    float: left;
+} 
+.section {
+    margin: 0px 0px 150px 0px;
+}
+.section-2 {
+    margin: 0px 0px 70px 0px;
+}  
+.header-icon {
+    max-width: 70px;
+}
+.up-icon {
+    max-width: 80px;
+}
+.mustache {
+    max-width: 55px;
+}
 h2 {
     font-size: 2.5em;
+}
+.move-down {
+    position: relative;
+    top: 15px;
+}
+.move-in {
+    position: relative;
+    top: 35px;
 }
 #skills h3 {
     font-size: 2em;
 }
-  .container {
-    max-width: 1080px;
+.container {
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-  }
-  .quote {
+}
+.quote {
     padding: 30px 25px;
     margin: 20px;
 }
 .skill-box {
     padding: 20px;
-    width: 285px;
+    width: 280px;
     height: 300px;
-    margin: 15px;
+    margin: 40px 20px 40px 20px;
     display: inline-block;
 }
-  #connect p {
-    max-width: 380px;
-    }
+.left {
+    float: left;
 }
+.right {
+    float: right;
+}
+.competitor {
+    margin: 20px 0px 0px 55px;
+}
+.monkey {
+    margin: 10px 50px 10px auto;
+    max-width: 200px;
+}
+.interview {
+    max-width: 420px;
+}
+.develop {
+    margin-bottom: 140px;
+}
+.title {
+    max-height: 60px;
+}
+.improve {
+    max-width: 550px;
+    margin: 15px auto 30px auto;
+    display: inline-block;
+}
+.driver {
+    max-width: 320px;
+    margin-left: 0;
+}
+.sample {
+    max-width: 210px;
+    margin: 20px;
+}
+.type {
+    max-width: 155px;
+    margin: 20px;
+    }
+#connect p {
+    max-width: 420px;
+ }
+
+
+}
+
 
 /* ==============================
 X-large devices (1440px or larger)
