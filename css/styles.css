@@ -44,7 +44,7 @@ h4 {
     font-weight: 600;
 }
 .rust {
-    color: #C26F5A;
+    color: #fd9075;
 }
 .semibold {
     font-weight: 400;
@@ -239,45 +239,26 @@ main {
     padding: 70px 0;
     display: inline-block;
     width: 100%;
-    background-color: #dbbab2;
+    /* background-color: #dbbab2; */
 }
-/* .big-img {
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-image: url('img/main/img-hero.png');
-}
-.overlay {
-    position: absolute;
+.big-img {
+    background-image: url(../img/main/img-hero.jpg);
     height: 100%;
-    width: 100%;
-    top: 0;
-    left:0;
-    background:rgba(0, 0, 0, 0.1);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-} */
-/* .hero-img {
-    position: absolute;
-    top: 118px;
-    z-index:-1;
-} */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #hero h1 {
-    padding-top: 70px;
+    padding-top: 160px;
     text-align: left;
     /* max-width: 290px; */
-    /* color: #ffffff; */
+    color: #ffffff;
     font-size: 2em;
 }
 #hero h4 {
     text-align: left;
     padding: 20px 0;
-    /* color: #ffffff; */
+    color: #ffffff;
     font-size: 18px;
 }
 .arrow {
@@ -456,6 +437,13 @@ margin: 15px 0;
     margin: 55px 0 20px 0;
 }
 /*SKILLS*/
+.cons-img {
+    background-image: url(../img/main/img-cons-mobile.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #skills {
     background-color: #F0BEA9;
     display: inline-block;
@@ -509,14 +497,11 @@ margin: 15px 0;
 #allwell #intro h3 {
     color: #303030;
     max-width: 350px;
+    font-size: 1.6em;
 }
 #allwell h3 {
     margin: 10px 0px 15px 0px;
-    max-width: 800px;
     color: #004A78;
-}
-#allwell p {
-    max-width: 700px;
 }
 .top-line {
     border-top: 1px solid #4a4a4a;
@@ -572,15 +557,14 @@ margin: 15px 0;
     margin: 35px auto 0px auto;
 }
 .competitor {
-    max-width: 290px;
-    margin: 40px 0px 0px 0px;
+    max-width: 260px;
+    margin: 0;
 }
-#discover > div > div > div > ul {
-    max-width: 300px;
+.finding > ul {
+    max-width: 260px;
     list-style-type: none;
-    padding-left: 0px;
-    margin: 10px auto;
-    display: inline-block;
+    padding: 0;
+    margin: 0px auto;
 }
 .monkey {
     max-width: 140px;
@@ -752,12 +736,11 @@ footer > ul {
     display: inline-block;
 }
 .copyright {
-    font-size: 15px;
+    font-size: 13px;
 }
 .cright {
 padding: 0px 20px;
 display: block;
-
 }
 
 /* ==============================
@@ -773,19 +756,27 @@ nav {
         float: right;
         margin-top: 4px;
     }
-    .flex {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 25px;
-    }
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+}
 main {
     padding-top: 99px;
     }
+ .container {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .col-md-6 {
     width: 50%;
 }
 .col-lg-4 {
+    width: 33%;
+} 
+.col-md-4 {
     width: 33%;
 } 
 .col-md-5 {
@@ -804,16 +795,24 @@ main {
 #allwell-top .col-md-6 p {
     padding: 0px 30px 0px 0px;
 }
-.col-md-6 h3 {
-    padding: 0px 20px 0px 0px;
+#define .col-md-6 h3 {
+    padding: 0px 28px 0px 0px;
 }
 #hero {
     padding: 40px 30px;
     height: 600px;
 }  
+.big-img {
+    background-image: url(../img/main/img-hero-1000.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #hero h1 {
-    text-align: center;
-    max-width: 2000px;
+    text-align: left;
+    padding-top: 300px;
+    max-width: 560px;
     font-size: 2.5em;
 }
 #hero h4 {
@@ -822,6 +821,14 @@ main {
 }
 #mywork h2 {
     text-align: center;
+}
+
+.work-copy {
+    position: relative;
+    bottom: 20px;
+}
+#mywork p {
+    max-width: 240px;
 }
 .quote {
     padding: 30px 25px;
@@ -834,8 +841,18 @@ main {
     margin-top: 0;
 }
 #about p {
-max-width: 580px;
+max-width: 540px;
 }
+.cons-img {
+    background-image: url(../img/main/img-cons-lg.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#spare-time p {
+    max-width: 500px;
+    }
 .skill-box {
     padding: 20px;
     width: 285px;
@@ -843,12 +860,29 @@ max-width: 580px;
     margin: 10px;
     display: inline-block;
 }
+.no-marg {
+    margin: 0;
+}
+#allwell h1 {
+    margin: 15px 0;
+}
+.all-sub {
+    padding: 0;
+    /* position:relative;
+    right: 12px; */
+}
+#allwell p {
+    max-width: 580px;
+}
 .title {
     max-height: 50px;
 }
+.finding > ul {
+    max-width: none;
+}
 .monkey {
-    max-width: 200px;
-    margin: 10px 35px 10px auto;
+    max-width: 180px;
+    margin: 10px 0px 10px auto;
 }
 .map-results {
     max-width: 800px;
@@ -917,7 +951,10 @@ Large devices (1000px or larger)
 .col-icon-copy {
     width: 90%;
     display: inline-block;
-}   
+} 
+.col-lg-3 {
+    width: 25%;
+}    
 .col-lg-4 {
     width: 33%;
 }    
@@ -933,12 +970,49 @@ Large devices (1000px or larger)
 .col-lg-8 {
     width: 67%;
 }
+.col-lg-9 {
+    width: 75%;
+}
 [class*="col-"] {
     float: left;
     padding: 10px;
 }
+.big-img {
+    background-image: url(../img/main/img-hero-1400.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero h1 {
+    text-align: center;
+    padding-top: 330px;
+margin: 0;    
+max-width: 700px;
+    font-size: 2.5em;
+}
+#hero h4 {
+    text-align: center;
+    font-size: 1.2em;
+}
+#intro .col-md-6 {
+    width: 100%;
+    padding: 0;
+}
+#intro h3 {
+    padding-right: 0;
+}
 #about main {
     padding-top: 65px;
+}
+#about p {
+    max-width: 420px;
+    }
+    #spare-time p {
+        max-width: 290px;
+        }
+#allwell p {
+    max-width: 670px;
 }
 .co-icon {
     width: 7%;
@@ -953,6 +1027,12 @@ Large devices (1000px or larger)
 }
 .section-2 {
     margin: 0px 0px 70px 0px;
+}
+.finding > ul {
+    max-width: 870px;
+}  
+.finding > ul > li > img {
+    max-width: 280px;
 }  
 .header-icon {
     max-width: 70px;
@@ -1000,10 +1080,10 @@ h2 {
     float: right;
 }
 .competitor {
-    margin: 20px 0px 0px 55px;
+    margin: 20px 0px 0px 64px;
 }
 .monkey {
-    margin: 10px 50px 10px auto;
+    margin: 10px 30px 10px auto;
     max-width: 200px;
 }
 .interview {
