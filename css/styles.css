@@ -172,6 +172,9 @@ a:focus {
 
 .container {
     padding: 0 15px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .row {
     margin: 25px 0;
