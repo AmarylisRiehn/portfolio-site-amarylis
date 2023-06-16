@@ -987,6 +987,13 @@ Large devices (1000px or larger)
     background-repeat: no-repeat;
     background-size: cover;
 }
+.cons-img {
+    background-image: url(../img/main/img-cons-wide.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #hero h1 {
     text-align: center;
     padding-top: 330px;
