@@ -52,8 +52,8 @@ h4 {
 }
 nav { /* NAVIGATION */
     font-weight: 500;
-    display: inline-block;
-    width: 100%;
+    /* display: inline-block;
+    width: 100%; */
 }
 img { /* IMAGES */
     width: 100%;
@@ -191,8 +191,7 @@ a:focus {
 /*HEADER NAV*/
 header {
     background-color: #ffe4c4;
-    text-align: center;
-    padding: 25px 0 5px 0px;
+    padding: 20px 0 20px 0px;
     margin: 0px auto;
     position: fixed;
     width: 100%;
@@ -209,28 +208,55 @@ header {
     }
 
 .logo {
-    max-width: 180px;
+    max-width: 150px;
 }
-nav {
+/* nav {
     display: inline-block;
-}
+    width: 100%;
+} */
 nav > ul {
     list-style-type: none;
-    padding: 0px 0px;
+    padding: 0px;
+    margin: 0;
 }
-nav > ul > li {
-    display: inline-block;
-}
+.navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding-right: 0;
+  }
+.navtoggle li:not(:last-child) {
+    display: none;
+  }
+  .navtoggle, .navtoggle.responsive {
+    position: relative;
+  }
+  .navtoggle.responsive li  {
+    display: block;
+  }
+  .navtoggle.responsive nav {
+    padding: 24px 0 0;
+  }
+  .navtoggle.responsive li  {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255,127,80,0.5);
+  }
+  .navtoggle.responsive li:last-child  {
+    padding: 0 0 10px;
+  }
 nav > ul > li > a {
     padding: 0px 20px;
     /*text-transform: uppercase;
     font-weight: 700;
     color: #4a4a4a;*/
 }
+
 /*nav > ul > li > a:visited*/
 
 main {
-    padding-top: 118px;
+    padding-top: 66px;
     width: 100%;
 }
 
@@ -754,11 +780,26 @@ header {
         text-align: unset;
         padding: 20px 0 13px;
     }
+    .logo {
+        max-width: 180px;
+    }
 nav {
         width: auto;
         float: right;
         margin-top: 4px;
     }
+    nav > ul {
+        margin: 1em 0;
+      }
+nav > ul > li {
+        display: inline-block;
+    }
+.navtoggle li:not(:last-child) {
+    display: inline-block;
+      }
+.navtoggle li:last-child {
+    display: none;
+      }
 .flex {
     display: flex;
     justify-content: space-between;
@@ -795,6 +836,7 @@ main {
     float: left;
     padding: 10px;
 }
+
 #allwell-top .col-md-6 p {
     padding: 0px 30px 0px 0px;
 }

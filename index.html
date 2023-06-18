@@ -17,26 +17,31 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6c2553cb7c.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="home">
     <header class="shadow">
         <div class="container flex">
-            <a href="index.html">
-                <img class="logo" src="img/main/amarylis-riehn-logo.svg" alt="Amarylis Riehn Logo">
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#connect">Connect</a></li>
-                </ul>
-            </nav>
+            <div id="mynavtoggle" class="navtoggle">
+                <a href="index.html">
+                    <img class="logo" src="img/main/amarylis-riehn-logo.svg" alt="Amarylis Riehn Logo">
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#connect" onclick="menuToggle()">Connect</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                    </ul>
+                </nav>
+                
+            </div>
         </div>
     </header>
     <main>
         <div id="hero" class="big-img">
-             <!--HERO-->
+            <!--HERO-->
             <!-- <div class="hero-img">
                 <picture>
                     <source srcset="img/main/img-hero.png" media="(max-width:639px)">
@@ -1798,6 +1803,8 @@
             <p>© <span class="italic regular copyright"> Copyright &nbsp;2023&nbsp;&nbsp;Amarylis Riehn</span></p>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 </body>
 
