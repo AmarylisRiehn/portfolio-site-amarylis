@@ -50,11 +50,6 @@ h4 {
     font-weight: 400;
     display: block;
 }
-nav { /* NAVIGATION */
-    font-weight: 500;
-    /* display: inline-block;
-    width: 100%; */
-}
 img { /* IMAGES */
     width: 100%;
 }
@@ -210,10 +205,9 @@ header {
 .logo {
     max-width: 150px;
 }
-/* nav {
-    display: inline-block;
-    width: 100%;
-} */
+nav { /* NAVIGATION */
+    font-weight: 500;
+}
 nav > ul {
     list-style-type: none;
     padding: 0px;
@@ -222,7 +216,7 @@ nav > ul {
 .navtoggle li .icon {
     position: absolute;
     right: 0;
-    top: 2px;
+    top: -2px;
     font-size: 20px;
     padding-right: 0;
   }
@@ -788,11 +782,18 @@ nav {
         float: right;
         margin-top: 4px;
     }
-    nav > ul {
+nav > ul {
         margin: 1em 0;
       }
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    }
 nav > ul > li {
         display: inline-block;
+        
     }
 .navtoggle li:not(:last-child) {
     display: inline-block;
@@ -800,12 +801,7 @@ nav > ul > li {
 .navtoggle li:last-child {
     display: none;
       }
-.flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 25px;
-}
+
 main {
     padding-top: 99px;
     }
