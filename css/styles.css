@@ -448,7 +448,7 @@ margin: 15px 0;
     width: 100%;
 }
 #about main {
-    padding-top: 93px;
+    padding-top: 40px;
 }
 .about-hero{
     margin-bottom: 120px;
@@ -457,7 +457,7 @@ margin: 15px 0;
     max-width: 575px;
 }
 #about h2 {
-    margin: 55px 0 20px 0;
+    margin: 45px 0 20px 0;
 }
 /*SKILLS*/
 .cons-img {
@@ -707,7 +707,9 @@ margin: 0 auto;
 .prev {
     float: left;
     padding-left: 15px;
-
+}
+.disabled {
+    opacity: .6;
 }
 .next {
     float: right;
@@ -851,9 +853,9 @@ main {
     background-size: cover;
 }
 #hero h1 {
-    text-align: left;
+    text-align: center;
     padding-top: 300px;
-    max-width: 560px;
+    max-width: 600px;
     font-size: 2.5em;
 }
 #hero h4 {
@@ -880,6 +882,9 @@ main {
 }
 .about-hero .row {
     margin-top: 0;
+}
+#about h2 {
+    margin: 35px 0 20px 0;
 }
 #about p {
 max-width: 540px;
@@ -1035,8 +1040,8 @@ Large devices (1000px or larger)
 #hero h1 {
     text-align: center;
     padding-top: 330px;
-margin: 0;    
-max-width: 700px;
+margin: 0 auto 40px auto;    
+max-width: 900px;
     font-size: 2.5em;
 }
 #hero h4 {
@@ -1051,7 +1056,7 @@ max-width: 700px;
     padding-right: 0;
 }
 #about main {
-    padding-top: 65px;
+    padding-top: 90px;
 }
 #about p {
     max-width: 420px;
