@@ -44,7 +44,7 @@ h4 {
     font-weight: 600;
 }
 .rust {
-    color: #fd9075;
+    color: #C06686;
 }
 .semibold {
     font-weight: 400;
@@ -58,14 +58,14 @@ img { /* IMAGES */
      LINKS - BUTTONS 
 =============================*/
 a {     /* LINKS */
-    color: #C26F5A;
+    color: #C06686;
     text-decoration: none;
 }
 a:visited {
-    color: #C26F5A;
+    color: #C06686;
 }
 a:hover {
-    color: #C26F5A;
+    color: #C06686;
     text-decoration: underline;
 }
 a:active {
@@ -73,7 +73,7 @@ a:active {
     /* color: #5D91CE; */
 }
 a:focus {
-    color: #C26F5A;
+    color: #C06686;
     text-decoration: underline;
 }
 
@@ -104,40 +104,40 @@ a:focus {
     font-size: 25px;
     text-transform: lowercase;
     background-color: #ffffff;
-    color: #C26F5A;
+    color: #C06686;
     font-weight: 500;
     padding: 5px 10px 6px 10px;
     margin: 15px 0;
     border-radius: 15px 3px;
-    border: 3px solid #C26F5A;
+    border: 3px solid #C06686;
     transition-duration: 0.2s;
     transition-property: opacity;
 }
 .button:visited {
     background-color: #ffffff;
-    color: #C26F5A;
+    color: #C06686;
     text-decoration: none;
 }
 .button:hover {
-    background-color: #C26F5A;
+    background-color: #C06686;
     color: #ffffff;
     text-decoration: none;
     opacity: 0.8;
 }
 .button:active {
-    background-color: #C26F5A;
+    background-color: #C06686;
     color: #ffffff;
     text-decoration: none;
 }
 .button:focus {
     background-color: #ffffff;
-    border: 3px solid #5D91CE;
-    color: #5D91CE;
+    border: 3px solid #DA88A5;
+    color: #DA88A5;
     text-decoration: none;
 }
 /* buttons in CONNECT footer */
 .button.contact {
-    background-color: #C26F5A;
+    background-color: #C06686;
     color: #ffffff;
 }
 .button.contact:hover {
@@ -235,7 +235,7 @@ nav > ul {
   .navtoggle.responsive li  {
     display: block;
     padding: 10px 0;
-    border-top: 1px solid rgba(255,127,80,0.5);
+    border-top: 1px solid #E2ACBF;
   }
   .navtoggle.responsive li:last-child  {
     padding: 0 0 10px;
@@ -409,7 +409,7 @@ margin: 0 5px 0 0;
 
 /*REFERENCES*/
 #references {
-    background-color: #F0BEA9;
+    background-color: #E2ACBF;
     text-align: center;
     padding: 65px 0 62px 0;
     width: 100%;
@@ -425,7 +425,7 @@ margin: 15px 0;
     font-size: 16px;
 }
 .quote {
-    background-color: #f1c6b4;
+    background-color: #ffffff;
     margin: 20px auto;
     padding: 30px 25px;
     max-width: 280px;
@@ -460,15 +460,24 @@ margin: 15px 0;
     margin: 45px 0 20px 0;
 }
 /*SKILLS*/
+
 .cons-img {
-    background-image: url(../img/main/img-cons-mobile.jpg);
+    background-image: url(../img/main/img-cons-lg.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-#skills {
+#bottom-img {
     background-color: #F0BEA9;
+    display: inline-block;
+    text-align: center;
+    height: 440px;
+    margin: 0px auto;
+    width: 100%;
+}
+#skills {
+    background-color: #E2ACBF;
     display: inline-block;
     text-align: center;
     padding: 70px 0px;
@@ -505,7 +514,7 @@ margin: 15px 0;
 }
 /*SPARE TIME*/
 #spare-time {
-    padding: 110px 0px;
+    padding: 110px 0px 90px 0px;
 }
 
 /* ===========================
@@ -695,11 +704,11 @@ margin: 0 auto;
 
 /*BOTTOM NAV*/
 #bottom-nav {
-    background-color: #C26F5A;
+    background-color: #C06686;
     margin-top: 80px;
     font-size: 1em;
     font-weight: 500;
-    height: 60px;
+    height: 55px;
     width: 100%;
     text-align: center;
     display: inline-block;
@@ -720,7 +729,7 @@ margin: 0 auto;
     /* margin: 0px auto; */
 }
 .bottom {
-    padding: 14px 0px;
+    padding: 14px 0px 10px 0;
 }
 
 /* ===========================
@@ -1030,12 +1039,18 @@ Large devices (1000px or larger)
     background-repeat: no-repeat;
     background-size: cover;
 }
+#spare-time {
+    padding: 110px 0px 120px 0px;
+}
 .cons-img {
     background-image: url(../img/main/img-cons-wide.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#bottom-img {
+    height: 600px;
 }
 #hero h1 {
     text-align: center;
