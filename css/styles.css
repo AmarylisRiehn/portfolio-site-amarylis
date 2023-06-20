@@ -707,6 +707,7 @@ margin: 0 auto;
 }
 
 
+
 /*BOTTOM NAV*/
 #bottom-nav {
     background-color: #C06686;
@@ -933,6 +934,10 @@ max-width: 540px;
 #allwell p {
     max-width: 580px;
 }
+#deliver p {
+    max-width: 420px;
+    text-align: left;
+}
 .title {
     max-height: 50px;
 }
@@ -1086,6 +1091,7 @@ max-width: 900px;
 #allwell p {
     max-width: 670px;
 }
+
 .co-icon {
     width: 7%;
     float: left;
