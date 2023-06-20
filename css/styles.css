@@ -700,12 +700,16 @@ margin: 0 auto;
 .final {
     margin: 50px 0;
 }
+.interact {
+    /* width: 100%; */
+    text-align: center;
+    display: inline-block;
+}
 
 
 /*BOTTOM NAV*/
 #bottom-nav {
     background-color: #C06686;
-    margin-top: 80px;
     font-size: 1em;
     font-weight: 500;
     height: 55px;
