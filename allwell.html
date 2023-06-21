@@ -1,546 +1,856 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="AmarylisRiehn">
-    <meta name="description" content="AllWell case study for Adrianne Amarylis Riehn Ledbetter UX design portfolio">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="AmarylisRiehn" />
+    <meta
+      name="description"
+      content="AllWell case study for Adrianne Amarylis Riehn Ledbetter UX design portfolio"
+    />
     <title>AllWell UX Project</title>
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
-    <script src="https://kit.fontawesome.com/6c2553cb7c.js" crossorigin="anonymous"></script>
-</head>
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6c2553cb7c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body id="allwell-top">
+  <body id="allwell-top">
     <header class="shadow">
-        <div class="container">
-            <div id="mynavtoggle" class="navtoggle flex">
-                <a href="index.html">
-                    <img class="logo" src="img/main/amarylis-riehn-logo.svg" alt="Amarylis Riehn Logo">
-                </a>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Work</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#connect" onclick="menuToggle()">Connect</a></li>
-                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i
-                                    class="fas fa-bars"></i></a></li>
-                    </ul>
-                </nav>
-            </div>
+      <div class="container">
+        <div id="mynavtoggle" class="navtoggle flex">
+          <a href="index.html">
+            <img
+              class="logo"
+              src="img/main/amarylis-riehn-logo.svg"
+              alt="Amarylis Riehn Logo"
+            />
+          </a>
+          <nav>
+            <ul>
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#connect" onclick="menuToggle()">Connect</a></li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                  ><i class="fas fa-bars"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </header>
     <main id="allwell">
-        <div id="intro"><!--Introduction-->
-            <div class="container">
-                <div class="row">
-                    <div class="right col-lg-7 fade-in-image">
-                        <picture>
-                            <source srcset="img/allwell/img-screens-intro3.png" media="(max-width:767px)">
-                            <img class="intro-scr move-in" src="img/allwell/img-screens-intro3.png"
-                                alt="Allwell Screen Introduction">
-                        </picture>
-                    </div>
-                    <div class="left col-lg-5">
-                        <h1>AllWell</h1>
-                        <div class="row no-marg">
-                            <div class="col-md-6 all-sub">
-                                <h3>Healthcare Management and Support for Family Caregivers</h3>
-                            </div>
-                            <div class="col-md-6">
-                                <p class="bold">Type <span class="regular">&nbsp;&nbsp;UX Course Project</span></p>
-                                <p class="bold">Role <span class="regular">&nbsp;&nbsp;Research
-                                        &nbsp;&nbsp;|&nbsp;&nbsp; UX
-                                        &nbsp;&nbsp;|&nbsp;&nbsp; UI</span></p>
-                                <p class="bold">Time <span class="regular">&nbsp;&nbsp;7 mo
-                                        &nbsp;&nbsp;|&nbsp;&nbsp; Sep 22
-                                        -
-                                        Mar
-                                        23</span></p>
-                            </div>
-                        </div>
-                        <a href="#prototype-allwell" class="button butt-shadow">View Prototype</a>
-                    </div>
-                </div>
+      <div id="intro">
+        <!--Introduction-->
+        <div class="container">
+          <div class="row">
+            <div class="right col-lg-7 fade-in-image">
+              <picture>
+                <source
+                  srcset="img/allwell/img-screens-intro3.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  class="intro-scr move-in"
+                  src="img/allwell/img-screens-intro3.png"
+                  alt="Allwell Screen Introduction"
+                />
+              </picture>
             </div>
+            <div class="left col-lg-5">
+              <h1>AllWell</h1>
+              <div class="row no-marg">
+                <div class="col-md-6 all-sub">
+                  <h3>
+                    Healthcare Management and Support for Family Caregivers
+                  </h3>
+                </div>
+                <div class="col-md-6">
+                  <p class="bold">
+                    Type
+                    <span class="regular">&nbsp;&nbsp;UX Course Project</span>
+                  </p>
+                  <p class="bold">
+                    Role
+                    <span class="regular"
+                      >&nbsp;&nbsp;Research &nbsp;&nbsp;|&nbsp;&nbsp; UX
+                      &nbsp;&nbsp;|&nbsp;&nbsp; UI</span
+                    >
+                  </p>
+                  <p class="bold">
+                    Time
+                    <span class="regular"
+                      >&nbsp;&nbsp;7 mo &nbsp;&nbsp;|&nbsp;&nbsp; Sep 22 - Mar
+                      23</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <a href="#prototype-allwell" class="button butt-shadow"
+                >View Prototype</a
+              >
+            </div>
+          </div>
         </div>
-        <div id="problem"> <!--Process and Problem-->
-            <div class="container">
-                <!-- <div>
+      </div>
+      <div id="problem">
+        <!--Process and Problem-->
+        <div class="container">
+          <!-- <div>
                     <picture>
                         <source srcset="img/allwell/img-its-a-process.svg" media="(max-width:767px)">
                         <img src="img/allwell/img-its-a-process.svg" alt="UX Process Imagery">
                     </picture>
                 </div> -->
-                <div class="row section">
-                    <div class="col-md-6">
-                        <img class="header-icon caution" src="img/allwell/ic-caution.png" alt="Problem Icon">
-                        <h4>PROBLEM</h4>
-                        <h3>A Heavy Burden</h3>
-                        <p>Caregivers have a difficult time managing healthcare needs for themselves and their
-                            dependents
-                            because information and support are spread across several different entities.</p>
-                    </div>
-                    <div class="col-md-6">
-                        <img class="header-icon caution" src="img/allwell/ic-lightbulb.png" alt="Lightbulb Idea Icon">
-                        <h4>POTENTIAL SOLUTION</h4>
-                        <h3>Lightening The Load</h3>
-                        <p>A tool created with a Caregiver’s needs in mind. Designed to save them time and
-                            energy by
-                            offering a central location for medical records/info, support, resources, and goal
-                            tracking.
-                        </p>
-                    </div>
-                </div>
+          <div class="row section">
+            <div class="col-md-6">
+              <img
+                class="header-icon caution"
+                src="img/allwell/ic-caution.png"
+                alt="Problem Icon"
+              />
+              <h4>PROBLEM</h4>
+              <h3>A Heavy Burden</h3>
+              <p>
+                Caregivers have a difficult time managing healthcare needs for
+                themselves and their dependents because information and support
+                are spread across several different entities.
+              </p>
             </div>
-        </div>
-        <!--DISCOVER Section-->
-        <div id="discover">
-            <div class="container">
-                <div class="top-line">
-                    <img class="title discover" src="img/allwell/img-discover.svg" alt="Discover Headline">
-                </div>
-                <div class="section"> <!--Id Potential Users-->
-                    <div class="row">
-                        <div class="co-icon">
-                            <img class="header-icon magnify" src="img/allwell/ic-magnifyingglass.jpg"
-                                alt="Magnifying Glass Icon">
-                        </div>
-                        <div class="co-icon-copy">
-                            <h4>IDENTIFYING POTENTIAL USERS</h4>
-                            <h3>A whopping 24+ hours a week are spent on caregiving.</h3>
-                            <p>These sweet souls are spouses, parents, family members or friends involved in assisting
-                                others
-                                with activities of daily living and/or medical tasks.</p>
-                        </div>
-                    </div>
-                    <div class="stats">
-                        <picture>
-                            <source srcset="img/allwell/img-potentialuserstats-sm.svg" media="(max-width:639px)">
-                            <img src="img/allwell/img-potentialuserstats-lg.svg" alt="User Stats">
-                        </picture>
-                        <p class="italic regular copyright">Source: Caregiver Statistics: Demographics - Family
-                            Caregiver Alliance. Available at: <a
-                                href="https://www.caregiver.org/resource/caregiver-statistics-demographics/"
-                                target="_blank" class="text-link">source link</a></p>
-                    </div>
-                </div>
-                <div class="section"> <!--Competitor Analysis-->
-                    <div class="row">
-                        <div class="co-icon">
-                            <img class="header-icon magnify" src="img/allwell/ic-magnifyingglass.jpg"
-                                alt="Magnifying Glass Icon">
-                        </div>
-                        <div class="co-icon-copy">
-                            <h4>COMPETITOR ANALYSIS</h4>
-                            <h3>“If you design for everyone, you delight no one” <span class="alan">ALAN COOPER</span>
-                            </h3>
-                            <p>I analyzed applications that were in the healthcare mgmt space. Most of which are medical
-                                provider portals such as FollowMyHealth but could also include major health/fitness
-                                players
-                                such
-                                as Apple Health. Wanngi get’s closer to an all-in-one solution but seems to be
-                                underdeveloped or unknown.</p>
-                        </div>
-                    </div>
-                    <div class="competitor">
-                        <img src="img/allwell/img-competitorlogos.png" alt="Competitor Logos">
-                    </div>
-                    <div class="sub-section finding">
-                        <ul class="flex">
-                            <li class=""><img src="img/allwell/img-competitorno1.png" alt="competitor finding 1"></li>
-                            <li class=""><img src="img/allwell/img-competitorno2.png" alt="competitor finding 2"></li>
-                            <li class=""><img src="img/allwell/img-competitorno3.png" alt="competitor finding 3"></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="section"> <!--User Interviews and Affinity Mapping-->
-                    <div class="row">
-                        <div class="monkey col-md-4 col-lg-3">
-                            <picture>
-                                <source srcset="img/allwell/img-monkey.png" media="(max-width:767px)">
-                                <img src="img/allwell/img-monkey.png" alt="Circus Monkey">
-                            </picture>
-                        </div>
-                        <div class=" col-md-8 col-lg-9">
-                            <img class="header-icon magnify" src="img/allwell/ic-magnifyingglass.jpg"
-                                alt="Magnifying Glass Icon">
-                            <h4>USER INTERVIEWS + AFFINITY MAPPING</h4>
-                            <h3>“I feel like a circus monkey juggling all the plates”</h3>
-                            <p>I conducted User Interviews with 5 individuals within the target demographic. They were
-                                currently primary caregivers for an adult or child with special needs.</p>
-                        </div>
-                    </div>
-                    <div class="filter">
-                        <div>
-                            <picture>
-                                <source srcset="img/allwell/img-meaffinity-sm.png" media="(max-width:639px)">
-                                <img src="img/allwell/img-meaffinity-lg.jpg" alt="Vocabit Cover Image">
-                            </picture>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="map-results">
-                            <picture>
-                                <source srcset="img/allwell/img-affinitymapresults-sm.png" media="(max-width:639px)">
-                                <img src="img/allwell/img-affinitymapresults-lg.png" alt="Affinity Map Results">
-                            </picture>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-6">
+              <img
+                class="header-icon caution"
+                src="img/allwell/ic-lightbulb.png"
+                alt="Lightbulb Idea Icon"
+              />
+              <h4>POTENTIAL SOLUTION</h4>
+              <h3>Lightening The Load</h3>
+              <p>
+                A tool created with a Caregiver’s needs in mind. Designed to
+                save them time and energy by offering a central location for
+                medical records/info, support, resources, and goal tracking.
+              </p>
             </div>
+          </div>
         </div>
-        <!--DEFINE Section-->
-        <div id="define">
-            <div class="container">
-                <div class="top-line">
-                    <img class="title define" src="img/allwell/img-define.svg" alt="Difine Headline">
-                </div>
-                <div class="section"> <!--Personas-->
-                    <!-- <h4>PERSONAS</h4> -->
-                    <div class="persona">
-                        <picture>
-                            <source srcset="img/allwell/img-krystianpersona.png" media="(max-width:767px)">
-                            <img src="img/allwell/img-krystianpersona.png" alt="Krystian Persona">
-                        </picture>
-                    </div>
-                    <div class="persona">
-                        <picture>
-                            <source srcset="img/allwell/img-paulpersona.png" media="(max-width:767px)">
-                            <img src="img/allwell/img-paulpersona.png" alt="Paul Persona">
-                        </picture>
-                    </div>
-                </div>
-                <div class="section-2"> <!--User Journey and Flows-->
-                    <div class="row">
-                        <div class="new-box col-md-6">
-                            <a href="files/compressed_journeysflows.pdf" target="_blank">
-                                <img class="journey" src="img/allwell/img-journeylinks.svg"
-                                    alt="Journeys and Flows Link"></a>
-                            <h4>USER JOURNEYS</h4>
-                            <h3>Paul needs to schedule an appt for his mother on his lunch break.</h3>
-                            <p>I am beginning to see what features the app will need to include and in what context
-                                for
-                                Krystian and Paul.</p>
-                        </div>
-                        <div class="new-box col-md-6">
-                            <a href="files/compressed_journeysflows.pdf" target="_blank">
-                                <img class="flow" src="img/allwell/img-flowlinks.svg" alt="Journeys and Flows Link"></a>
-                            <h4>USER FLOWS</h4>
-                            <h3>Krystian just moved and needs local resources for her kids.</h3>
-                            <p>Mapping out the process users would take in order to accomplish tasks around the
-                                healthcare
-                                of their family.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="section"> <!--Site Map-->
-                    <div>
-                        <div>
-                            <img class="site header-icon" src="img/allwell/ic-pink-sitemap.jpg" alt="Site Map Icon">
-                            <h4 class="sitemap">SITE MAP + CARD SORT</h4>
-                        </div>
-                        <div>
-                            <picture>
-                                <source srcset="img/allwell/img-sitemap.png" media="(max-width:767px)">
-                                <img src="img/allwell/img-sitemap.png" alt="Site Map">
-                            </picture>
-                        </div>
-                    </div>
-                </div>
+      </div>
+      <!--DISCOVER Section-->
+      <div id="discover">
+        <div class="container">
+          <div class="top-line">
+            <img
+              class="title discover"
+              src="img/allwell/img-discover.svg"
+              alt="Discover Headline"
+            />
+          </div>
+          <div class="section">
+            <!--Id Potential Users-->
+            <div class="row">
+              <div class="co-icon">
+                <img
+                  class="header-icon magnify"
+                  src="img/allwell/ic-magnifyingglass.jpg"
+                  alt="Magnifying Glass Icon"
+                />
+              </div>
+              <div class="co-icon-copy">
+                <h4>IDENTIFYING POTENTIAL USERS</h4>
+                <h3>A whopping 24+ hours a week are spent on caregiving.</h3>
+                <p>
+                  These sweet souls are spouses, parents, family members or
+                  friends involved in assisting others with activities of daily
+                  living and/or medical tasks.
+                </p>
+              </div>
             </div>
-        </div>
-        <!--DEVELOP Section-->
-        <div id="develop">
-            <div class="container">
-                <div class="top-line">
-                    <div class="wireframe">
-                        <picture>
-                            <source srcset="img/allwell/img-wireframes-sm.png" media="(max-width:639px)">
-                            <img src="img/allwell/img-wireframes-lg.png" alt="Hand-drawn wireframes">
-                        </picture>
-                    </div>
-                    <div>
-                        <div>
-                            <img class="title develop" src="img/allwell/img-develop.svg" alt="Develop Headline">
-                        </div>
-                    </div>
-                </div>
-                <div class="row section"> <!--Usability Testing-->
-                    <div class="col-md-6 col-lg-5">
-                        <h4>USABILITY TESTING</h4>
-                        <h3>It’s alive!</h3>
-                        <p>With a mid-fidelity prototype in hand it was time to test it with 6 individuals within
-                            the
-                            target
-                            demographic.</p>
-                        <h4>GOALS</h4>
-                        <p>Discover errors and gauge satisfaction with 4 main features:</p>
-                        <ol>
-                            <li>Sign Up</li>
-                            <li>Connect with Provider</li>
-                            <li>Add Health Info (Even &amp Record)</li>
-                            <li>Save an Article (Resource)</li>
-                        </ol>
-                    </div>
-                    <div class="col-md-6 col-lg-7">
-                        <picture>
-                            <source srcset="img/allwell/img-interview-sm.png" media="(max-width:767px)">
-                            <img class="interview right" src="img/allwell/img-interview-sm.png"
-                                alt="Usability Testing Quotes">
-                        </picture>
-                    </div>
-                </div>
-                <div class="section"> <!--Improvements-->
-                    <div class="row">
-                        <div class="co-icon">
-                            <img class="up-icon" src="img/allwell/ic-pink-improvements.jpg" alt="Improvements Icon">
-                        </div>
-                        <div class="co-icon-copy">
-                            <h4>IMPROVEMENTS</h4>
-                            <h3>Being A Good Listener</h3>
-                        </div>
-                    </div>
-                    <div class="section-2 row">
-                        <div class="improve col-md-7">
-                            <picture>
-                                <source srcset="img/allwell/img-screens-reorganizedasjboard.png"
-                                    media="(max-width:767px)">
-                                <img src="img/allwell/img-screens-reorganizedasjboard.png"
-                                    alt="Before and After of Dashboard">
-                            </picture>
-                        </div>
-                        <div class="col-md-5 right">
-                            <h4>BUSY &amp DIFFICULT FINDING CONTACTS</h4>
-                            <h3>Reorganize the Dashboard</h3>
-                            <p>It was taking some users too long to find things on the dashboard, particularly
-                                Contacts
-                                and
-                                Calendar. I dropped them down into the content section next to Quick Actions – one
-                                of
-                                the
-                                first places users went to complete a task.</p>
-                        </div>
-                    </div>
-                    <div class="section-2 row">
-                        <div class="improve col-md-7 right">
-                            <picture>
-                                <source srcset="img/allwell/img-screens-consolidateadd.png" media="(max-width:767px)">
-                                <img src="img/allwell/img-screens-consolidateadd.png"
-                                    alt="Before and After of Dashboard">
-                            </picture>
-                        </div>
-                        <div class="col-md-5 left">
-                            <h4>CONFUSED BY TWO PLUS SYMBOLS</h4>
-                            <h3>Consolidate Add Feature</h3>
-                            <p>Users went to the wrong plus symbol in order to 'Add Record'. I put
-                                the
-                                plus symbol for adding a Folder in another menu and moved the plus sign to the
-                                bottom
-                                where
-                                users are used to seeing a FAB. Bottom nav wasn't needed.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="section-2 row">
-                        <div class="improve col-md-7 move-up">
-                            <picture>
-                                <source srcset="img/allwell/img-screens-simplifyintro.png" media="(max-width:767px)">
-                                <img src="img/allwell/img-screens-simplifyintro.png"
-                                    alt="Before and After of Dashboard">
-                            </picture>
-                        </div>
-                        <div class="col-md-5 right">
-                            <h4>A BUSY FIRST IMPRESSION</h4>
-                            <h3>Simplify Introduction</h3>
-                            <p>Feedback indicated that users felt it was too much on each screen. I worked to remove
-                                anything that was not essential and focus on a first impression that doesn’t
-                                overwhelm.
-                                Added ‘Next’ button after several users weren’t sure how to progress in the intro.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div class="stats">
+              <picture>
+                <source
+                  srcset="img/allwell/img-potentialuserstats-sm.svg"
+                  media="(max-width:639px)"
+                />
+                <img
+                  src="img/allwell/img-potentialuserstats-lg.svg"
+                  alt="User Stats"
+                />
+              </picture>
+              <p class="italic regular copyright">
+                Source: Caregiver Statistics: Demographics - Family Caregiver
+                Alliance. Available at:
+                <a
+                  href="https://www.caregiver.org/resource/caregiver-statistics-demographics/"
+                  target="_blank"
+                  class="text-link"
+                  >source link</a
+                >
+              </p>
             </div>
-        </div>
-        <!--DELIVER Section-->
-        <div id="deliver">
-            <div class="container">
-                <div class="row top-line">
-                    <div class="deliver">
-                        <img class="title left" src="img/allwell/img-deliver.svg" alt="Deliver Headline">
-                    </div>
-                    <div class="driver right">
-                        <picture>
-                            <source srcset="img/allwell/img-deliver.png" media="(max-width:767px)">
-                            <img src="img/allwell/img-deliver.png" alt="Delivery Driver Image">
-                        </picture>
-                    </div>
-                </div>
-                <div class="section"> <!--Refining The Design-->
-                    <div class="row">
-                        <div class="co-icon">
-                            <img class="header-icon mustache move-down" src="img/allwell/ic-mustach-refiningdesign.png"
-                                alt="Mustache Icon">
-                        </div>
-                        <div class="co-icon-copy">
-                            <h4>REFINING THE DESIGN</h4>
-                            <h3>A brand feel that is supportive, optimistic, and trustworthy</h3>
-                            <p>As with every other step UI and branding of the app is based on empathy. They can
-                                accomplish
-                                the
-                                tasks but they won’t care if it doesn’t feel right when they do. Here are a few
-                                challenges I
-                                faced:</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="box shadow col-md-6">
-                            <img class="refine-ic" src="img/allwell/ic-thumsupdown.png" alt="Wrong Feel Image">
-                            <h3>Wrong feel or association.</h3>
-                            <p>A preference test assisted in seeing what people gravitated toward. How to use a
-                                (preferred)
-                                pinkish-red without saying stop, cancel, or error!</p>
-                        </div>
-                        <div class="box shadow col-md-6">
-                            <img class="refine-ic" src="img/allwell/ic-trashexcess.png" alt="Lightbulb Idea Icon">
-                            <h3>Throwing the excess out.</h3>
-                            <p>How to have an app with a lot of function but not overwhelming. Clear
-                                hierarchy.
-                                Remove a
-                                line or a border to create more white space can go a long way.</p>
-                        </div>
-                        <div class="box shadow">
-                            <img class="refine-ic" src="img/allwell/ic-accessibleheart.png" alt="Lightbulb Idea Icon">
-                            <h3>Accessible and inclusive.</h3>
-                            <p>It’s for usability but it’s also just being considerate and inclusive. The challenge
-                                is
-                                mostly letting go of something I want for what the users need.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="section"> <!--Design Language-->
-                    <div class="row">
-                        <div class="co-icon">
-                            <img class="header-icon mustache" src="img/allwell/ic-mustach-refiningdesign.png"
-                                alt="Mustache Icon">
-                        </div>
-                        <div lass="co-icon-copy">
-                            <h4>DESIGN LANGUAGE</h4>
-                            <h3>A sample of the style...</h3>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="sample">
-                            <img src="img/allwell/img-designlang-1.png" alt="Design Language Color">
-                        </div>
-                        <div class="type">
-                            <img src="img/allwell/img-designlang-2.png" alt="Design Language Typography">
-                        </div>
-                        <div class="sample">
-                            <img src="img/allwell/img-designlang-3.png" alt="Design Language Components 1">
-                        </div>
-                        <div class="sample">
-                            <img src="img/allwell/img-designlang-4.png" alt="Design Language Components 2">
-                        </div>
-                    </div>
-                </div>
-                <div id="prototype-allwell" class="section"> <!--Prototype-->
-                    <div class="final">
-                        <picture>
-                            <source srcset="img/allwell/img-screens-finaldesign.png" media="(max-width:767px)">
-                            <img src="img/allwell/img-screens-finaldesign.png" alt="Site Map">
-                        </picture>
-                    </div>
-                    <div class="row">
-                        <div class="co-icon">
-                            <img class="up-icon magnify" src="img/allwell/ic-finale.jpg" alt="Finale Icon">
-                        </div>
-                        <div class="co-icon-copy">
-                            <h4>PROTOTYPE</h4>
-                            <h3>Finally... I mean FINALE!</h3>
-                            <p>Below, you can click through the full Figma prototype or press play for a brief demo from yours truly.</p>
-                            <ol>
-                                <li>Sign Up</li>
-                                <li>Connect with Contacts</li>
-                                <li>Add an Event to Calendar</li>
-                                <li>Add a Health Record</li>
-                                <li>Save a Resource (Article)</li>
-                            </ol>
-                        </div>
-                    </div>
-                    <div class="interact">
-                        <p class="copyright">*Note* If the prototype is being finicky refresh this page or click the white bar with the Figma logo (bottom) to open the full-version in your browser.</p>
-                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="290" height="670"
-                            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FeY5wgq9DC7rHmECTnJuNIe%2Fallwell_HighFidelityPrototype_v1%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D319-1076%26viewport%3D258%252C445%252C0.26%26scaling%3Dscale-down%26starting-point-node-id%3D319%253A1076"
-                            allowfullscreen></iframe>
-                        <iframe width="290" height="670" src="https://www.youtube.com/embed/K7_dbrwtw6I"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                    </div>
-
-                </div>
+          </div>
+          <div class="section">
+            <!--Competitor Analysis-->
+            <div class="row">
+              <div class="co-icon">
+                <img
+                  class="header-icon magnify"
+                  src="img/allwell/ic-magnifyingglass.jpg"
+                  alt="Magnifying Glass Icon"
+                />
+              </div>
+              <div class="co-icon-copy">
+                <h4>COMPETITOR ANALYSIS</h4>
+                <h3>
+                  “If you design for everyone, you delight no one”
+                  <span class="alan">ALAN COOPER</span>
+                </h3>
+                <p>
+                  I analyzed applications that were in the healthcare mgmt
+                  space. Most of which are medical provider portals such as
+                  FollowMyHealth but could also include major health/fitness
+                  players such as Apple Health. Wanngi get’s closer to an
+                  all-in-one solution but seems to be underdeveloped or unknown.
+                </p>
+              </div>
             </div>
-        </div>
-        <div id="bottom-nav"><!--Bottom Navigation-->
-            <div class="container">
-                <div class="bottom">
-                    <a class="prev disabled left" href="">Previous</a>
-                    <a class="top" href="#allwell-top">Top</a>
-                    <a class="next right" href="vocabit.html">Next</a>
-                </div>
+            <div class="competitor">
+              <img
+                src="img/allwell/img-competitorlogos.png"
+                alt="Competitor Logos"
+              />
             </div>
+            <div class="sub-section finding">
+              <ul class="flex">
+                <li class="">
+                  <img
+                    src="img/allwell/img-competitorno1.png"
+                    alt="competitor finding 1"
+                  />
+                </li>
+                <li class="">
+                  <img
+                    src="img/allwell/img-competitorno2.png"
+                    alt="competitor finding 2"
+                  />
+                </li>
+                <li class="">
+                  <img
+                    src="img/allwell/img-competitorno3.png"
+                    alt="competitor finding 3"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="section">
+            <!--User Interviews and Affinity Mapping-->
+            <div class="row">
+              <div class="monkey col-md-4 col-lg-3">
+                <picture>
+                  <source
+                    srcset="img/allwell/img-monkey.png"
+                    media="(max-width:767px)"
+                  />
+                  <img src="img/allwell/img-monkey.png" alt="Circus Monkey" />
+                </picture>
+              </div>
+              <div class="col-md-8 col-lg-9">
+                <img
+                  class="header-icon magnify"
+                  src="img/allwell/ic-magnifyingglass.jpg"
+                  alt="Magnifying Glass Icon"
+                />
+                <h4>USER INTERVIEWS + AFFINITY MAPPING</h4>
+                <h3>“I feel like a circus monkey juggling all the plates”</h3>
+                <p>
+                  I conducted User Interviews with 5 individuals within the
+                  target demographic. They were currently primary caregivers for
+                  an adult or child with special needs.
+                </p>
+              </div>
+            </div>
+            <div class="filter">
+              <div>
+                <picture>
+                  <source
+                    srcset="img/allwell/img-meaffinity-sm.png"
+                    media="(max-width:639px)"
+                  />
+                  <img
+                    src="img/allwell/img-meaffinity-lg.jpg"
+                    alt="Vocabit Cover Image"
+                  />
+                </picture>
+              </div>
+            </div>
+            <div>
+              <div class="map-results">
+                <picture>
+                  <source
+                    srcset="img/allwell/img-affinitymapresults-sm.png"
+                    media="(max-width:639px)"
+                  />
+                  <img
+                    src="img/allwell/img-affinitymapresults-lg.png"
+                    alt="Affinity Map Results"
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <!--DEFINE Section-->
+      <div id="define">
+        <div class="container">
+          <div class="top-line">
+            <img
+              class="title define"
+              src="img/allwell/img-define.svg"
+              alt="Difine Headline"
+            />
+          </div>
+          <div class="section">
+            <!--Personas-->
+            <!-- <h4>PERSONAS</h4> -->
+            <div class="persona">
+              <picture>
+                <source
+                  srcset="img/allwell/img-krystianpersona.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/allwell/img-krystianpersona.png"
+                  alt="Krystian Persona"
+                />
+              </picture>
+            </div>
+            <div class="persona">
+              <picture>
+                <source
+                  srcset="img/allwell/img-paulpersona.png"
+                  media="(max-width:767px)"
+                />
+                <img src="img/allwell/img-paulpersona.png" alt="Paul Persona" />
+              </picture>
+            </div>
+          </div>
+          <div class="section-2">
+            <!--User Journey and Flows-->
+            <div class="row">
+              <div class="new-box col-md-6">
+                <a href="files/compressed_journeysflows.pdf" target="_blank">
+                  <img
+                    class="journey"
+                    src="img/allwell/img-journeylinks.svg"
+                    alt="Journeys and Flows Link"
+                /></a>
+                <h4>USER JOURNEYS</h4>
+                <h3>
+                  Paul needs to schedule an appt for his mother on his lunch
+                  break.
+                </h3>
+                <p>
+                  I am beginning to see what features the app will need to
+                  include and in what context for Krystian and Paul.
+                </p>
+              </div>
+              <div class="new-box col-md-6">
+                <a href="files/compressed_journeysflows.pdf" target="_blank">
+                  <img
+                    class="flow"
+                    src="img/allwell/img-flowlinks.svg"
+                    alt="Journeys and Flows Link"
+                /></a>
+                <h4>USER FLOWS</h4>
+                <h3>
+                  Krystian just moved and needs local resources for her kids.
+                </h3>
+                <p>
+                  Mapping out the process users would take in order to
+                  accomplish tasks around the healthcare of their family.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <!--Site Map-->
+            <div>
+              <div>
+                <img
+                  class="site header-icon"
+                  src="img/allwell/ic-pink-sitemap.jpg"
+                  alt="Site Map Icon"
+                />
+                <h4 class="sitemap">SITE MAP + CARD SORT</h4>
+              </div>
+              <div>
+                <picture>
+                  <source
+                    srcset="img/allwell/img-sitemap.png"
+                    media="(max-width:767px)"
+                  />
+                  <img src="img/allwell/img-sitemap.png" alt="Site Map" />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--DEVELOP Section-->
+      <div id="develop">
+        <div class="container">
+          <div class="top-line">
+            <div class="wireframe">
+              <picture>
+                <source
+                  srcset="img/allwell/img-wireframes-sm.png"
+                  media="(max-width:639px)"
+                />
+                <img
+                  src="img/allwell/img-wireframes-lg.png"
+                  alt="Hand-drawn wireframes"
+                />
+              </picture>
+            </div>
+            <div>
+              <div>
+                <img
+                  class="title develop"
+                  src="img/allwell/img-develop.svg"
+                  alt="Develop Headline"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row section">
+            <!--Usability Testing-->
+            <div class="col-md-6 col-lg-5">
+              <h4>USABILITY TESTING</h4>
+              <h3>It’s alive!</h3>
+              <p>
+                With a mid-fidelity prototype in hand it was time to test it
+                with 6 individuals within the target demographic.
+              </p>
+              <h4>GOALS</h4>
+              <p>
+                Discover errors and gauge satisfaction with 4 main features:
+              </p>
+              <ol>
+                <li>Sign Up</li>
+                <li>Connect with Provider</li>
+                <li>Add Health Info (Even &amp Record)</li>
+                <li>Save an Article (Resource)</li>
+              </ol>
+            </div>
+            <div class="col-md-6 col-lg-7">
+              <picture>
+                <source
+                  srcset="img/allwell/img-interview-sm.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  class="interview right"
+                  src="img/allwell/img-interview-sm.png"
+                  alt="Usability Testing Quotes"
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="section">
+            <!--Improvements-->
+            <div class="row">
+              <div class="co-icon">
+                <img
+                  class="up-icon"
+                  src="img/allwell/ic-pink-improvements.jpg"
+                  alt="Improvements Icon"
+                />
+              </div>
+              <div class="co-icon-copy">
+                <h4>IMPROVEMENTS</h4>
+                <h3>Being A Good Listener</h3>
+              </div>
+            </div>
+            <div class="section-2 row">
+              <div class="improve col-md-7">
+                <picture>
+                  <source
+                    srcset="img/allwell/img-screens-reorganizedasjboard.png"
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="img/allwell/img-screens-reorganizedasjboard.png"
+                    alt="Before and After of Dashboard"
+                  />
+                </picture>
+              </div>
+              <div class="col-md-5 right">
+                <h4>BUSY &amp DIFFICULT FINDING CONTACTS</h4>
+                <h3>Reorganize the Dashboard</h3>
+                <p>
+                  It was taking some users too long to find things on the
+                  dashboard, particularly Contacts and Calendar. I dropped them
+                  down into the content section next to Quick Actions – one of
+                  the first places users went to complete a task.
+                </p>
+              </div>
+            </div>
+            <div class="section-2 row">
+              <div class="improve col-md-7 right">
+                <picture>
+                  <source
+                    srcset="img/allwell/img-screens-consolidateadd.png"
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="img/allwell/img-screens-consolidateadd.png"
+                    alt="Before and After of Dashboard"
+                  />
+                </picture>
+              </div>
+              <div class="col-md-5 left">
+                <h4>CONFUSED BY TWO PLUS SYMBOLS</h4>
+                <h3>Consolidate Add Feature</h3>
+                <p>
+                  Users went to the wrong plus symbol in order to 'Add Record'.
+                  I put the plus symbol for adding a Folder in another menu and
+                  moved the plus sign to the bottom where users are used to
+                  seeing a FAB. Bottom nav wasn't needed.
+                </p>
+              </div>
+            </div>
+            <div class="section-2 row">
+              <div class="improve col-md-7 move-up">
+                <picture>
+                  <source
+                    srcset="img/allwell/img-screens-simplifyintro.png"
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="img/allwell/img-screens-simplifyintro.png"
+                    alt="Before and After of Dashboard"
+                  />
+                </picture>
+              </div>
+              <div class="col-md-5 right">
+                <h4>A BUSY FIRST IMPRESSION</h4>
+                <h3>Simplify Introduction</h3>
+                <p>
+                  Feedback indicated that users felt it was too much on each
+                  screen. I worked to remove anything that was not essential and
+                  focus on a first impression that doesn’t overwhelm. Added
+                  ‘Next’ button after several users weren’t sure how to progress
+                  in the intro.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--DELIVER Section-->
+      <div id="deliver">
+        <div class="container">
+          <div class="row top-line">
+            <div class="deliver">
+              <img
+                class="title left"
+                src="img/allwell/img-deliver.svg"
+                alt="Deliver Headline"
+              />
+            </div>
+            <div class="driver right">
+              <picture>
+                <source
+                  srcset="img/allwell/img-deliver.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/allwell/img-deliver.png"
+                  alt="Delivery Driver Image"
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="section">
+            <!--Refining The Design-->
+            <div class="row">
+              <div class="co-icon">
+                <img
+                  class="header-icon mustache move-down"
+                  src="img/allwell/ic-mustach-refiningdesign.png"
+                  alt="Mustache Icon"
+                />
+              </div>
+              <div class="co-icon-copy">
+                <h4>REFINING THE DESIGN</h4>
+                <h3>
+                  A brand feel that is supportive, optimistic, and trustworthy
+                </h3>
+                <p>
+                  As with every other step UI and branding of the app is based
+                  on empathy. They can accomplish the tasks but they won’t care
+                  if it doesn’t feel right when they do. Here are a few
+                  challenges I faced:
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="box shadow col-md-6">
+                <img
+                  class="refine-ic"
+                  src="img/allwell/ic-thumsupdown.png"
+                  alt="Wrong Feel Image"
+                />
+                <h3>Wrong feel or association.</h3>
+                <p>
+                  A preference test assisted in seeing what people gravitated
+                  toward. How to use a (preferred) pinkish-red without saying
+                  stop, cancel, or error!
+                </p>
+              </div>
+              <div class="box shadow col-md-6">
+                <img
+                  class="refine-ic"
+                  src="img/allwell/ic-trashexcess.png"
+                  alt="Lightbulb Idea Icon"
+                />
+                <h3>Throwing the excess out.</h3>
+                <p>
+                  How to have an app with a lot of function but not
+                  overwhelming. Clear hierarchy. Remove a line or a border to
+                  create more white space can go a long way.
+                </p>
+              </div>
+              <div class="box shadow">
+                <img
+                  class="refine-ic"
+                  src="img/allwell/ic-accessibleheart.png"
+                  alt="Lightbulb Idea Icon"
+                />
+                <h3>Accessible and inclusive.</h3>
+                <p>
+                  It’s for usability but it’s also just being considerate and
+                  inclusive. The challenge is mostly letting go of something I
+                  want for what the users need.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <!--Design Language-->
+            <div class="row">
+              <div class="co-icon">
+                <img
+                  class="header-icon mustache"
+                  src="img/allwell/ic-mustach-refiningdesign.png"
+                  alt="Mustache Icon"
+                />
+              </div>
+              <div lass="co-icon-copy">
+                <h4>DESIGN LANGUAGE</h4>
+                <h3>A sample of the style...</h3>
+              </div>
+            </div>
+            <div>
+              <div class="sample">
+                <img
+                  src="img/allwell/img-designlang-1.png"
+                  alt="Design Language Color"
+                />
+              </div>
+              <div class="type">
+                <img
+                  src="img/allwell/img-designlang-2.png"
+                  alt="Design Language Typography"
+                />
+              </div>
+              <div class="sample">
+                <img
+                  src="img/allwell/img-designlang-3.png"
+                  alt="Design Language Components 1"
+                />
+              </div>
+              <div class="sample">
+                <img
+                  src="img/allwell/img-designlang-4.png"
+                  alt="Design Language Components 2"
+                />
+              </div>
+            </div>
+          </div>
+          <div id="prototype-allwell" class="section">
+            <!--Prototype-->
+            <div class="final">
+              <picture>
+                <source
+                  srcset="img/allwell/img-screens-finaldesign.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/allwell/img-screens-finaldesign.png"
+                  alt="Site Map"
+                />
+              </picture>
+            </div>
+            <div class="row">
+              <div class="co-icon">
+                <img
+                  class="up-icon magnify"
+                  src="img/allwell/ic-finale.jpg"
+                  alt="Finale Icon"
+                />
+              </div>
+              <div class="co-icon-copy">
+                <h4>PROTOTYPE</h4>
+                <h3>Finally... I mean FINALE!</h3>
+                <p>
+                  Below, you can click through the full Figma prototype or press
+                  play for a brief demo from yours truly.
+                </p>
+                <ol>
+                  <li>Sign Up</li>
+                  <li>Connect with Contacts</li>
+                  <li>Add an Event to Calendar</li>
+                  <li>Add a Health Record</li>
+                  <li>Save a Resource (Article)</li>
+                </ol>
+              </div>
+            </div>
+            <div class="interact">
+              <p class="copyright">
+                *Note* If the prototype is being finicky refresh this page or
+                click the white bar with the Figma logo (bottom) to open the
+                full-version in your browser.
+              </p>
+              <iframe
+                style="border: 1px solid rgba(0, 0, 0, 0.1)"
+                width="290"
+                height="670"
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FeY5wgq9DC7rHmECTnJuNIe%2Fallwell_HighFidelityPrototype_v1%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D319-1076%26viewport%3D258%252C445%252C0.26%26scaling%3Dscale-down%26starting-point-node-id%3D319%253A1076"
+                allowfullscreen
+              ></iframe>
+              <iframe
+                width="290"
+                height="670"
+                src="https://www.youtube.com/embed/K7_dbrwtw6I"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="bottom-nav">
+        <!--Bottom Navigation-->
+        <div class="container">
+          <div class="bottom">
+            <a class="prev disabled left" href="">Previous</a>
+            <a class="top" href="#allwell-top">Top</a>
+            <a class="next right" href="vocabit.html">Next</a>
+          </div>
+        </div>
+      </div>
     </main>
 
     <!--FOOTER-->
     <footer id="connect">
-        <div class="container">
-            <h2>Let's Connect!</h2>
-            <div class="row">
-                <div class="col-lg-7 col-md-6">
-                    <p>I'm always open to discuss work opportunities, make new connections, or talk design.</p>
-                    <p>I am actively
-                        seeking a full-time, remote, UX/Product Design role. Please say "hello" via <a
-                            href="mailto:amaryliscreates@gmail.com" class="text-link">email</a> or call <a
-                            href="tel:6156748309" class="text-link">(615)
-                            674-8309</a></p>
-                </div>
-                <div class="col-lg-5 col-md-6">
-                    <div>
-                        <a href="mailto:amaryliscreates@gmail.com" class="button contact ">Email Me</a>
-                        <a href="files/resume-amarylis-2023.pdf" class="button contact resume" target="_blank">View
-                            Resume</a>
-                    </div>
-                    <div class="socials">
-                        <ul>
-                            <li><a href="https://www.linkedin.com/in/amaryliscreates/" target="_blank" class="ic-link">
-                                    <img class="icon-link" src="img/main/ic-linkedin-square.svg" alt="linkedin icon">
-                                </a></li>
-                            <li><a href="https://www.behance.net/amaryliscreates" target="_blank" class="ic-link">
-                                    <img class="icon-link2" src="img/main/ic-behance-square.svg" alt="linkedin icon">
-                                </a></li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <h2>Let's Connect!</h2>
+        <div class="row">
+          <div class="col-lg-7 col-md-6">
+            <p>
+              I'm always open to discuss work opportunities, make new
+              connections, or talk design.
+            </p>
+            <p>
+              I am actively seeking a full-time, remote, UX/Product Design role.
+              Please say "hello" via
+              <a href="mailto:amaryliscreates@gmail.com" class="text-link"
+                >email</a
+              >
+              or call
+              <a href="tel:6156748309" class="text-link">(615) 674-8309</a>
+            </p>
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <div>
+              <a href="mailto:amaryliscreates@gmail.com" class="button contact"
+                >Email Me</a
+              >
+              <a
+                href="files/resume-amarylis-2023.pdf"
+                class="button contact resume"
+                target="_blank"
+                >View Resume</a
+              >
             </div>
+            <div class="socials">
+              <ul>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/amaryliscreates/"
+                    target="_blank"
+                    class="ic-link"
+                  >
+                    <img
+                      class="icon-link"
+                      src="img/main/ic-linkedin-square.svg"
+                      alt="linkedin icon"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.behance.net/amaryliscreates"
+                    target="_blank"
+                    class="ic-link"
+                  >
+                    <img
+                      class="icon-link2"
+                      src="img/main/ic-behance-square.svg"
+                      alt="linkedin icon"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="cright">
-            <p>© <span class="italic regular copyright"> Copyright &nbsp;2023&nbsp;&nbsp;Amarylis Riehn</span></p>
-        </div>
+      </div>
+      <div class="cright">
+        <p>
+          ©
+          <span class="italic regular copyright">
+            Copyright &nbsp;2023&nbsp;&nbsp;Amarylis Riehn</span
+          >
+        </p>
+      </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
-        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/scripts.js"></script>
-</body>
-
+  </body>
 </html>

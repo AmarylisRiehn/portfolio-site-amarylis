@@ -1,126 +1,180 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="AmarylisRiehn">
-    <meta name="description"
-        content="UX Design, UI Design, Graphic Design, and User Experience Design portfolio for Adrianne Amarylis Riehn Ledbetter">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="AmarylisRiehn" />
+    <meta
+      name="description"
+      content="UX Design, UI Design, Graphic Design, and User Experience Design portfolio for Adrianne Amarylis Riehn Ledbetter"
+    />
     <title>Amarylis Riehn UX Designer</title>
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
-        <script src="https://kit.fontawesome.com/6c2553cb7c.js" crossorigin="anonymous"></script>
-</head>
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6c2553cb7c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body id="home">
+  <body id="home">
     <header class="shadow">
-        <div class="container">
-            <div id="mynavtoggle" class="navtoggle flex">
-                <a href="index.html">
-                    <img class="logo" src="img/main/amarylis-riehn-logo.svg" alt="Amarylis Riehn Logo">
-                </a>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Work</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#connect" onclick="menuToggle()">Connect</a></li>
-                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-                    </ul>
-                </nav>
-                
-            </div>
+      <div class="container">
+        <div id="mynavtoggle" class="navtoggle flex">
+          <a href="index.html">
+            <img
+              class="logo"
+              src="img/main/amarylis-riehn-logo.svg"
+              alt="Amarylis Riehn Logo"
+            />
+          </a>
+          <nav>
+            <ul>
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#connect" onclick="menuToggle()">Connect</a></li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                  ><i class="fas fa-bars"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </header>
     <main>
-        <div id="hero" class="big-img">
-            <!--HERO-->
-            <!-- <div class="hero-img">
-                <picture>
-                    <source srcset="img/main/img-hero.png" media="(max-width:639px)">
-                    <img src="#" alt="home hero">
-                </picture>
-            </div> -->
-            <div class="container overlay">
-                <h1>Hi, my name is <span class="rust">Amarylis.</span><span class="semibold"> I am a UX Designer
-                        based
-                        out of Nashville!</span></h1>
-                <!-- <h4 class="italic regular centered">Crafting research-based solutions that elivate the human
+      <div id="hero" class="big-img">
+        <!--HERO-->
+        <div class="container overlay">
+          <h1>
+            Hi, my name is <span class="rust">Amarylis.</span
+            ><span class="semibold">
+              I am a UX Designer based out of Nashville!</span
+            >
+          </h1>
+          <!-- <h4 class="italic regular centered">Crafting research-based solutions that elivate the human
                     experience
                     and connect with your users.
                 </h4> -->
-                <div class="arrow">
-                    <img class="down-arrow" src="img/main/ic-downarrow.svg" alt="down arrow">
-                </div>
-            </div>
+          <div class="arrow">
+            <img
+              class="down-arrow"
+              src="img/main/ic-downarrow.svg"
+              alt="down arrow"
+            />
+          </div>
         </div>
-        <div id="scratch">
-            <div class="container">
-                <div class="code-detail">
-                    <img class="ic-scratch" src="img/main/ic-scratch.png" alt="from scratch icon">
-                    <p>Website coded &nbsp;'from scratch'&nbsp; <a href="#" class="text-link">details</a></p>
-                </div>
-            </div>
+      </div>
+      <div id="scratch">
+        <div class="container">
+          <div class="code-detail">
+            <img
+              class="ic-scratch"
+              src="img/main/ic-scratch.png"
+              alt="from scratch icon"
+            />
+            <p>
+              Website coded &nbsp;'from scratch'&nbsp;
+              <a href="#" class="text-link">details</a>
+            </p>
+          </div>
         </div>
-        <div id="mywork"> <!--MY WORK-->
-            <div class="container">
-                <h2>My Work</h2>
-                <div class="row"> <!--ALLWELL-->
-                    <div class="col-md-6 col-lg-7">
-                        <a href="allwell.html">
-                            <picture>
-                                <source srcset="img/main/allwell-cover-mobile600x.png" media="(max-width:767px)">
-                                <img src="img/main/allwell-cover-desktop1200x.png" alt="AllWell Cover Image">
-                            </picture>
-                        </a>
-                    </div>
-                    <div class="col-md-6 col-lg-5 work-copy">
-                        <a href="allwell.html" class="discreet-link">
-                            <h3>AllWell<span class="tag-line"> &nbsp;&nbsp;For Those Who Care</span></h3>
-                        </a>
-                        <h4 class="italic regular">Research &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;UX &nbsp;&nbsp;&nbsp;|
-                            &nbsp;&nbsp;&nbsp;UI</h4>
-                        <p>Providing Family Caregivers with the convenience of managing healthcare for multiple
-                            individuals
-                            through
-                            secure data storage, collaboration with others, monitoring of
-                            health
-                            progress,
-                            personalized resources, and more.</p>
-                        <a href="allwell.html" class="button butt-shadow">View Project</a>
-                    </div>
-                </div>
-                <div class="row"> <!--VOCABIT-->
-                    <div class="col-md-6 col-lg-7">
-                        <a href="vocabit.html">
-                            <picture>
-                                <source srcset="img/main/img-comingsoon.png" media="(max-width:767px)">
-                                <img src="img/main/img-comingsoon.png" alt="Vocabit Cover Image">
-                            </picture>
-                        </a>
-                    </div>
-                    <div class="col-md-6 col-lg-5 work-copy">
-                        <a href="vocabit.html" class="discreet-link">
-                            <h3>Vocabit<span class="tag-line"> &nbsp;&nbsp;For Your Learning Habit</span></h3>
-                        </a>
-                        <h4 class="italic regular">Research &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;UX &nbsp;&nbsp;&nbsp;|
-                            &nbsp;&nbsp;&nbsp;UI</h4>
-                        <p>A language learning app to achieve your vocabulary goals by offering goal
-                            setting, tracking, positive reinforcement, accountability, and a variety of learning options
-                            to
-                            suit your style.</p>
-                        <a href="#" class="button butt-shadow">View Project</a>
-                    </div>
-                </div>
-                <!--ANIMATE EXAMPLE-->
-                <!--<div class="row"> 
+      </div>
+      <div id="mywork">
+        <!--MY WORK-->
+        <div class="container">
+          <h2>My Work</h2>
+          <div class="row">
+            <!--ALLWELL-->
+            <div class="col-md-6 col-lg-7">
+              <a href="allwell.html">
+                <picture>
+                  <source
+                    srcset="img/main/allwell-cover-mobile600x.png"
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="img/main/allwell-cover-desktop1200x.png"
+                    alt="AllWell Cover Image"
+                  />
+                </picture>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-5 work-copy">
+              <a href="allwell.html" class="discreet-link">
+                <h3>
+                  AllWell<span class="tag-line">
+                    &nbsp;&nbsp;For Those Who Care</span
+                  >
+                </h3>
+              </a>
+              <h4 class="italic regular">
+                Research &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;UX
+                &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;UI
+              </h4>
+              <p>
+                Providing Family Caregivers with the convenience of managing
+                healthcare for multiple individuals through secure data storage,
+                collaboration with others, monitoring of health progress,
+                personalized resources, and more.
+              </p>
+              <a href="allwell.html" class="button butt-shadow">View Project</a>
+            </div>
+          </div>
+          <div class="row">
+            <!--VOCABIT-->
+            <div class="col-md-6 col-lg-7">
+              <a href="vocabit.html">
+                <picture>
+                  <source
+                    srcset="img/main/img-comingsoon.png"
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="img/main/img-comingsoon.png"
+                    alt="Vocabit Cover Image"
+                  />
+                </picture>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-5 work-copy">
+              <a href="vocabit.html" class="discreet-link">
+                <h3>
+                  Vocabit<span class="tag-line">
+                    &nbsp;&nbsp;For Your Learning Habit</span
+                  >
+                </h3>
+              </a>
+              <h4 class="italic regular">
+                Research &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;UX
+                &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;UI
+              </h4>
+              <p>
+                A language learning app to achieve your vocabulary goals by
+                offering goal setting, tracking, positive reinforcement,
+                accountability, and a variety of learning options to suit your
+                style.
+              </p>
+              <a href="#" class="button butt-shadow">View Project</a>
+            </div>
+          </div>
+          <!--ANIMATE EXAMPLE-->
+          <!--<div class="row"> 
                     <div class="col-md-6 col-lg-7">
                         <a href="#">
                             <picture class="testimg">
@@ -1707,105 +1761,152 @@
                         <a href="#" class="button butt-shadow">View Project</a>
                     </div>
                 </div>-->
-            </div>
         </div>
-        <div id="references">
-            <div class="container">
-                <div class="row">
-                    <div class="quote col-md-6">
-                        <div class="profile centered">
-                            <img src="img/main/img-profile-steve.png" alt="Photo of Steve">
-                        </div>
-                        <div>
-                            <h4 class="centered">Steve Arrington</h4>
-                            <p class="regular centered">Head of Digital &amp <span>Industrial Product Design</span></p>
-                            <p class="regular centered italic">"I 'mentored' Amarylis while she was a CareerFoundry
-                                student.
-                                I use the
-                                quotes because she made mentoring easy. She exhibits the characteristics I look for in a
-                                designer: she’s endlessly curious, and has the skills to know what to do with what she
-                                learns.
-                                She’s a solid add to any design team."</p>
-                        </div>
-                    </div>
-                    <div class="quote col-md-6">
-                        <div class="profile centered">
-                            <img src="img/main/img-profile-matt.png" alt="Photo of Matt">
-                        </div>
-                        <div>
-                            <h4 class="centered">Matt Roberts</h4>
-                            <p class="regular centered">General Manager
-                            </p>
-                            <p class="regular centered italic">"Amarylis' work was always thorough, carefully processed
-                                and
-                                expertly executed. She improved our marketing efforts through her graphic design work
-                                and
-                                equally improved our organizational structure. She was always a joy to work with and
-                                brought so
-                                much value to our culture. She's a valuable addition to any team or company she
-                                supports."
-                            </p>
-                        </div>
-                    </div>
-                    <div class="quote col-md-6">
-                        <div class="profile centered">
-                            <img src="img/main/img-profile-alicia.png" alt="Photo of Alicia">
-                        </div>
-                        <div>
-                            <h4 class="centered">Alicia Edwards</h4>
-                            <p class="regular centered">Associate Creative Director</p>
-                            <p class="regular centered italic">"I 'mentored' Amarylis while she was a CareerFoundry
-                                student.
-                                I use the
-                                quotes because she made mentoring easy. She exhibits the characteristics I look for in a
-                                designer: she’s endlessly curious, and has the skills to know what to do with what she
-                                learns.
-                                She’s a solid add to any design team."</p>
-                        </div>
-                    </div>
-                </div>
+      </div>
+      <div id="references">
+        <div class="container">
+          <div class="row">
+            <div class="quote col-md-6">
+              <div class="profile centered">
+                <img
+                  src="img/main/img-profile-steve.png"
+                  alt="Photo of Steve"
+                />
+              </div>
+              <div>
+                <h4 class="centered">Steve Arrington</h4>
+                <p class="regular centered">
+                  Head of Digital &amp; <span>Industrial Product Design</span>
+                </p>
+                <p class="regular centered italic">
+                  "I 'mentored' Amarylis while she was a CareerFoundry student.
+                  I use the quotes because she made mentoring easy. She exhibits
+                  the characteristics I look for in a designer: she’s endlessly
+                  curious, and has the skills to know what to do with what she
+                  learns. She’s a solid add to any design team."
+                </p>
+              </div>
             </div>
+            <div class="quote col-md-6">
+              <div class="profile centered">
+                <img src="img/main/img-profile-matt.png" alt="Photo of Matt" />
+              </div>
+              <div>
+                <h4 class="centered">Matt Roberts</h4>
+                <p class="regular centered">General Manager</p>
+                <p class="regular centered italic">
+                  "Amarylis' work was always thorough, carefully processed and
+                  expertly executed. She improved our marketing efforts through
+                  her graphic design work and equally improved our
+                  organizational structure. She was always a joy to work with
+                  and brought so much value to our culture. She's a valuable
+                  addition to any team or company she supports."
+                </p>
+              </div>
+            </div>
+            <div class="quote col-md-6">
+              <div class="profile centered">
+                <img
+                  src="img/main/img-profile-alicia.png"
+                  alt="Photo of Alicia"
+                />
+              </div>
+              <div>
+                <h4 class="centered">Alicia Edwards</h4>
+                <p class="regular centered">Associate Creative Director</p>
+                <p class="regular centered italic">
+                  "I 'mentored' Amarylis while she was a CareerFoundry student.
+                  I use the quotes because she made mentoring easy. She exhibits
+                  the characteristics I look for in a designer: she’s endlessly
+                  curious, and has the skills to know what to do with what she
+                  learns. She’s a solid add to any design team."
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </main>
 
     <!--FOOTER-->
     <footer id="connect">
-        <div class="container">
-            <h2>Let's Connect!</h2>
-            <div class="row">
-                <div class="col-lg-7 col-md-6">
-                    <p>I'm always open to discuss work opportunities, make new connections, or talk design.</p>
-                    <p>I am actively
-                        seeking a full-time, remote, UX/Product Design role. Please say "hello" via <a
-                            href="mailto:amaryliscreates@gmail.com" class="text-link">email</a> or call <a
-                            href="tel:6156748309" class="text-link">(615)
-                            674-8309</a></p>
-                </div>
-                <div class="col-lg-5 col-md-6">
-                    <div>
-                        <a href="mailto:amaryliscreates@gmail.com" class="button contact ">Email Me</a>
-                        <a href="files/resume-amarylis-2023.pdf" class="button contact resume" target="_blank">View Resume</a>
-                    </div>
-                    <div class="socials">
-                        <ul>
-                            <li><a href="https://www.linkedin.com/in/amaryliscreates/" target="_blank" class="ic-link">
-                                    <img class="icon-link" src="img/main/ic-linkedin-square.svg" alt="linkedin icon">
-                                </a></li>
-                            <li><a href="https://www.behance.net/amaryliscreates" target="_blank" class="ic-link">
-                                    <img class="icon-link2" src="img/main/ic-behance-square.svg" alt="linkedin icon">
-                                </a></li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <h2>Let's Connect!</h2>
+        <div class="row">
+          <div class="col-lg-7 col-md-6">
+            <p>
+              I'm always open to discuss work opportunities, make new
+              connections, or talk design.
+            </p>
+            <p>
+              I am actively seeking a full-time, remote, UX/Product Design role.
+              Please say "hello" via
+              <a href="mailto:amaryliscreates@gmail.com" class="text-link"
+                >email</a
+              >
+              or call
+              <a href="tel:6156748309" class="text-link">(615) 674-8309</a>
+            </p>
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <div>
+              <a href="mailto:amaryliscreates@gmail.com" class="button contact"
+                >Email Me</a
+              >
+              <a
+                href="files/resume-amarylis-2023.pdf"
+                class="button contact resume"
+                target="_blank"
+                >View Resume</a
+              >
             </div>
+            <div class="socials">
+              <ul>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/amaryliscreates/"
+                    target="_blank"
+                    class="ic-link"
+                  >
+                    <img
+                      class="icon-link"
+                      src="img/main/ic-linkedin-square.svg"
+                      alt="linkedin icon"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.behance.net/amaryliscreates"
+                    target="_blank"
+                    class="ic-link"
+                  >
+                    <img
+                      class="icon-link2"
+                      src="img/main/ic-behance-square.svg"
+                      alt="linkedin icon"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="cright">
-            <p>© <span class="italic regular copyright"> Copyright &nbsp;2023&nbsp;&nbsp;Amarylis Riehn</span></p>
-        </div>
+      </div>
+      <div class="cright">
+        <p>
+          ©
+          <span class="italic regular copyright">
+            Copyright &nbsp;2023&nbsp;&nbsp;Amarylis Riehn</span
+          >
+        </p>
+      </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
-        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/scripts.js"></script>
-</body>
-
+  </body>
 </html>
