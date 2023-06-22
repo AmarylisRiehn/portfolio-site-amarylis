@@ -161,12 +161,7 @@ a:focus {
   -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
-.ic-link:hover {
-  opacity: 0.7;
-}
-.ic-link:active {
-  opacity: 0.7;
-}
+
 
 /* ===========================
      LAYOUT STYLING 
@@ -786,8 +781,8 @@ footer {
 /*Icon Links*/
 .socials {
   display: inline-block;
-  position: relative;
-  right: 40px;
+  /* position: relative;
+  right: 40px; */
 }
 .icon-link {
   width: 50px;
@@ -797,12 +792,20 @@ footer {
   width: 50px;
   /* margin: 8px 10px 13px 10px; */
 }
-footer > ul {
+.ic-link:hover {
+  opacity: 0.7;
+}
+.ic-link:active {
+  opacity: 0.7;
+}
+#footer > ul {
   list-style-type: none;
   padding-left: 0px;
+  /* display: inline-block; */
 }
 .socials > ul > li {
   display: inline-block;
+  
 }
 .copyright {
   font-size: 13px;
