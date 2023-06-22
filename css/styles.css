@@ -790,12 +790,12 @@ footer {
   right: 40px;
 }
 .icon-link {
-  max-width: 50px;
-  margin: 5px 10px 16px 0px;
+  width: 50px;
+  /* margin: 5px 10px 16px 0px; */
 }
 .icon-link2 {
-  max-width: 50px;
-  margin: 8px 10px 13px 10px;
+  width: 50px;
+  /* margin: 8px 10px 13px 10px; */
 }
 footer > ul {
   list-style-type: none;
