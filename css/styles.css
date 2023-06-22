@@ -45,6 +45,9 @@ h4 {
 }
 .rust {
   color: #c06686;
+  text-shadow: 0 0 27px rgba(3, 3, 3, 1) ; 
+  -webkit-text-shadow: 0 0 27px rgba(3, 3, 3, 1) ; 
+  -moz-text-shadow: 0 0 27px rgba(3, 3, 3, 1) ; 
 }
 .semibold {
   font-weight: 400;
@@ -60,14 +63,14 @@ img {
 =============================*/
 a {
   /* LINKS */
-  color: #c06686;
+  color: #B9557A;
   text-decoration: none;
 }
 a:visited {
-  color: #c06686;
+  color: #B9557A;
 }
 a:hover {
-  color: #c06686;
+  color: #B9557A;
   text-decoration: underline;
 }
 a:active {
@@ -75,7 +78,7 @@ a:active {
   /* color: #5D91CE; */
 }
 a:focus {
-  color: #c06686;
+  color: #B9557A;
   text-decoration: underline;
 }
 
