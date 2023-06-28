@@ -45,6 +45,9 @@ h4 {
 }
 .rust {
   color: #c06686;
+  
+}
+.text-shadow{
   text-shadow: 0 0 27px rgba(3, 3, 3, 1) ; 
   -webkit-text-shadow: 0 0 27px rgba(3, 3, 3, 1) ; 
   -moz-text-shadow: 0 0 27px rgba(3, 3, 3, 1) ; 
@@ -81,7 +84,10 @@ a:focus {
   color: #B9557A;
   text-decoration: underline;
 }
-
+.current {
+  background-color: #F1DDE4;
+  padding: 7px 15px;
+}
 .text-link {
   font-weight: 500;
   font-size: 1.03em;
@@ -187,7 +193,7 @@ a:focus {
 
 /*HEADER NAV*/
 header {
-  background-color: #ffe4c4;
+  background-color: #ffffff;
   padding: 20px 0 20px 0px;
   margin: 0px auto;
   position: fixed;
@@ -197,7 +203,6 @@ header {
 .shadow {
   width: [object Object]px;
   height: [object Object]px;
-  background: #f8f8f8;
   border: solid #bdbdbd 1px;
   box-shadow: 9px 9px 15px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 9px 9px 15px rgba(0, 0, 0, 0.1);
@@ -343,8 +348,14 @@ main {
 #mywork h2 {
   padding: 25px 0px;
 }
-#mywork p {
+.work-p {
   font-size: 16px;
+}
+.work-intro {
+  border-top: 1px solid #4a4a4a;
+  border-bottom: 1px solid #4a4a4a;
+  margin: 0 0 50px 0;
+  padding: 20px 0 30px 0;
 }
 .tag-line {
   font-weight: 400;
@@ -437,7 +448,7 @@ main {
 
 /*REFERENCES*/
 #references {
-  background-color: #e2acbf;
+  background-color: #A1AAB5;
   text-align: center;
   padding: 65px 0 62px 0;
   width: 100%;
@@ -457,7 +468,7 @@ main {
   margin: 20px auto;
   padding: 30px 25px;
   max-width: 280px;
-  height: 500px;
+  height: 420px;
   border-radius: 30px 5px;
   display: inline-block;
 }
@@ -479,13 +490,16 @@ main {
   padding-top: 40px;
 }
 .about-hero {
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 .about-hero-img {
   max-width: 575px;
 }
 #about h2 {
   margin: 45px 0 20px 0;
+}
+#about h4 {
+  margin: 30px 0 20px 0;
 }
 /*SKILLS*/
 
@@ -505,10 +519,10 @@ main {
   width: 100%;
 }
 #skills {
-  background-color: #e2acbf;
+  background-color: #A1AAB5;
   display: inline-block;
   text-align: center;
-  padding: 70px 0px;
+  padding: 50px 0px;
   margin: 0px auto;
   width: 100%;
 }
@@ -526,7 +540,7 @@ main {
   padding: 20px;
   margin: 20px auto;
   width: 260px;
-  height: 300px;
+  height: 280px;
   display: inline-block;
 }
 /*TOOLS*/
@@ -536,13 +550,13 @@ main {
   padding-left: 0px;
 }
 .tool > ul > li {
-  width: 75px;
+  width: 65px;
   margin: 10px 15px;
   display: inline-block;
 }
 /*SPARE TIME*/
 #spare-time {
-  padding: 110px 0px 90px 0px;
+  padding: 90px 0px 70px 0px;
 }
 
 /* ===========================
@@ -853,7 +867,12 @@ Medium devices (640px and larger)
   .navtoggle li:last-child {
     display: none;
   }
-
+  .current {
+    border-bottom: 2px solid #DCAABC;
+    background-color: #ffffff;
+    border-top: 2px solid #DCAABC;
+    padding: 4px 20px;
+  }
   main {
     padding-top: 99px;
   }
@@ -915,13 +934,19 @@ Medium devices (640px and larger)
   #mywork h2 {
     text-align: center;
   }
-
   .work-copy {
     position: relative;
     bottom: 20px;
   }
-  #mywork p {
+ .work-p {
     max-width: 240px;
+  }
+  .work-intro h4 {
+    text-align: center;
+  }
+  .work-intro p {
+    /* max-width: 570px; */
+    text-align: center;
   }
   .quote {
     padding: 30px 25px;
@@ -937,7 +962,7 @@ Medium devices (640px and larger)
     margin: 35px 0 20px 0;
   }
   #about p {
-    max-width: 540px;
+    max-width: 550px;
   }
   .cons-img {
     background-image: url(../img/main/img-cons-lg.jpg);
@@ -1095,7 +1120,7 @@ Large devices (1000px or larger)
     background-size: cover;
   }
   #bottom-img {
-    height: 600px;
+    height: 425px;
   }
   #hero h1 {
     text-align: center;
@@ -1108,6 +1133,13 @@ Large devices (1000px or larger)
     text-align: center;
     font-size: 1.2em;
   }
+  .work-intro p {
+    max-width: 570px;
+margin: 18px auto;
+  }
+  .work-p {
+    max-width: 340px;
+  }
   #intro .col-md-6 {
     width: 100%;
     padding: 0;
@@ -1119,7 +1151,10 @@ Large devices (1000px or larger)
     padding-top: 90px;
   }
   #about p {
-    max-width: 420px;
+    max-width: 390px;
+  }
+  #about h4 {
+    max-width: 350px;
   }
   #spare-time p {
     max-width: 290px;
