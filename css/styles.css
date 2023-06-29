@@ -373,7 +373,7 @@ main {
 }
 
 .fade-in-image {
-  animation: fadeIn 4s;
+  animation: fadeIn 3s;
 }
 @keyframes fadeIn {
   0% {
@@ -391,9 +391,24 @@ main {
     transform: translate(0px, 0px);
   }
 }
+@keyframes screen-move2 {
+  from {
+    transform: translate(0px, -20px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
 .move-in {
   animation-duration: 1s;
   animation-name: screen-move;
+  animation-iteration-count: 1;
+  animation-direction: end;
+  animation-timing-function: linear;
+}
+.move-in2 {
+  animation-duration: 1.3s;
+  animation-name: screen-move2;
   animation-iteration-count: 1;
   animation-direction: end;
   animation-timing-function: linear;
