@@ -146,6 +146,8 @@ a:focus {
   color: #da88a5;
   text-decoration: none;
 }
+/* class = disabled fades button */
+
 /* buttons in CONNECT footer */
 .button.contact {
   background-color: #c06686;
